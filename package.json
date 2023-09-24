@@ -1,17 +1,23 @@
 {
+  "name": "nancy",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.9",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
     "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.6.10",
-  "name": "nancy"
+  }
 }

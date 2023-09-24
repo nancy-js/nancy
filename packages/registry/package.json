@@ -1,0 +1,26 @@
+{
+  "name": "@nancy/registry",
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "build": "bun index.ts"
+  },
+  "dependencies": {
+    "@nancy/core": "workspace:*",
+    "@types/lodash": "^4.14.198",
+    "ajv": "^8.12.0",
+    "async-memoize-one": "^1.1.5",
+    "fp-ts": "^2.16.1",
+    "glob": "^10.3.4",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "octokit": "^3.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.1",
+    "tsconfig": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

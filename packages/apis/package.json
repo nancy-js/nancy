@@ -1,0 +1,25 @@
+{
+  "name": "@nancy/apis",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run ./build.ts && bun run build:types",
+    "build:cosmos-sdk": "openapi-typescript ./src/cosmos-sdk/openapi.json -o ./src/cosmos-sdk/openapi-types.ts",
+    "build:evm": "bun run ./src/evm/build-types.ts",
+    "build:tendermint": "openapi-typescript ./src/tendermint/openapi.json -o ./src/tendermint/openapi-types.ts",
+    "build:types": "bun tsc -p ./tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.13",
+    "bun-types": "latest",
+    "json-schema-to-typescript": "^13.1.1",
+    "openapi-fetch": "^0.7.6",
+    "openapi-typescript": "^6.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

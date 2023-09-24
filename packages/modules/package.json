@@ -1,0 +1,17 @@
+{
+  "name": "@nancy/modules",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run ./build.ts && bun run build:types"
+  },
+  "devDependencies": {
+    "@nancy/apis": "workspace:*",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
