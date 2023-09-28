@@ -37,6 +37,8 @@ export default {
         "https://juno-rpc.stake-town.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       archway: {
         portId: "transfer",

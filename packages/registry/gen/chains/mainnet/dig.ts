@@ -10,6 +10,8 @@ export default {
         "https://rpc-dig-ia.cosmosia.notional.ventures/",
       ],
     },
+  },
+  ibc: {
     channels: {
       juno: {
         portId: "transfer",

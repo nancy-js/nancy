@@ -13,6 +13,8 @@ export default {
         "https://konstellation-rpc.stakerhouse.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

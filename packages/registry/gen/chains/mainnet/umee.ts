@@ -24,6 +24,8 @@ export default {
         "https://rpc-umee.mzonder.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       crescent: {
         portId: "transfer",

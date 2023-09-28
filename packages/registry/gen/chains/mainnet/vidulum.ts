@@ -11,6 +11,8 @@ export default {
         "https://rpc-vdl.nodine.id",
       ],
     },
+  },
+  ibc: {
     channels: {
       okexchain: {
         portId: "transfer",

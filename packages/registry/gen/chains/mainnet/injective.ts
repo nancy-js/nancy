@@ -23,6 +23,8 @@ export default {
         "https://injective-rpc.highstakes.ch:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",
@@ -79,13 +81,13 @@ export default {
       composable: {
         portId: "transfer",
         channelId:
-          "channel-141",
+          "channel-145",
         counterpartyChainId:
           "composable",
         counterpartyPortId:
           "transfer",
         counterpartyChannelId:
-          "channel-10",
+          "channel-29",
         order: "unordered",
         version: "ics20-1",
       },

@@ -26,6 +26,8 @@ export default {
         "https://rpc.nois.silentvalidator.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       archway: {
         portId: "transfer",

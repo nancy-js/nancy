@@ -21,6 +21,8 @@ export default {
         "https://passage-rpc.stakerhouse.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

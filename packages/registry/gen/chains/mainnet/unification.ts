@@ -10,6 +10,8 @@ export default {
         "https://rpc.unification.chainmasters.ninja/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

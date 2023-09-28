@@ -7,6 +7,8 @@ export default {
     api: {
       "jsonrpc-http": [],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

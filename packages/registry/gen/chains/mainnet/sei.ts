@@ -14,6 +14,8 @@ export default {
         "https://rpc-sei.whispernode.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       neutron: {
         portId: "transfer",

@@ -15,6 +15,8 @@ export default {
         "https://rpc-cheqd.carbonzero.zone:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

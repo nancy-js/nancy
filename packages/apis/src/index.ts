@@ -1,3 +1,3 @@
-export * from "./cosmos-sdk/index.ts";
-export * from "./tendermint/index.ts";
-export * from "./evm/index.ts";
+export * from "./cosmos-sdk/index.js";
+export * from "./tendermint/index.js";
+export * from "./evm/index.js";

@@ -16,6 +16,8 @@ export default {
         "https://sommelier-rpc.w3coins.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       stride: {
         portId: "transfer",

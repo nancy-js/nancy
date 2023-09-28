@@ -18,6 +18,8 @@ export default {
         "https://rpc-composable.vinjan.xyz:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",
@@ -61,13 +63,13 @@ export default {
       injective: {
         portId: "transfer",
         channelId:
-          "channel-10",
+          "channel-29",
         counterpartyChainId:
           "injective",
         counterpartyPortId:
           "transfer",
         counterpartyChannelId:
-          "channel-141",
+          "channel-145",
         order: "unordered",
         version: "ics20-1",
       },

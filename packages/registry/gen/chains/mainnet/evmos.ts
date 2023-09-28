@@ -6,7 +6,6 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
-        "https://evmos.kingnodes.com",
         "https://rpc-evmos.ecostake.com",
         "https://rpc-evmos.whispernode.com:443",
         "https://evmos-rpc.lavenderfive.com:443",
@@ -36,6 +35,8 @@ export default {
         "https://rpc-evmos.mms.team",
       ],
     },
+  },
+  ibc: {
     channels: {
       secretnetwork: {
         portId: "transfer",

@@ -10,6 +10,8 @@ export default {
         "https://rpc.echjoker.lol",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

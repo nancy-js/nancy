@@ -21,6 +21,8 @@ export default {
         "https://chihuahua-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       secretnetwork: {
         portId: "transfer",
@@ -84,6 +86,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-10",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-25",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-4",
         order: "unordered",
         version: "ics20-1",
       },

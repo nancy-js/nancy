@@ -25,6 +25,8 @@ export default {
         "https://persistence-rpc.highstakes.ch:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       irisnet: {
         portId: "transfer",

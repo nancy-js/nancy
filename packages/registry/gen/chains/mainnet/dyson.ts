@@ -11,6 +11,8 @@ export default {
         "https://dyson-rpc.cogwheel.zone:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

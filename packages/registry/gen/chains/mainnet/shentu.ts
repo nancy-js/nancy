@@ -16,6 +16,8 @@ export default {
         "https://shentu-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

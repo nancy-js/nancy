@@ -18,6 +18,8 @@ export default {
         "https://regen-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       sifchain: {
         portId: "transfer",

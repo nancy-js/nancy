@@ -10,6 +10,8 @@ export default {
         "https://cerberus-rpc.kleomedes.network",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

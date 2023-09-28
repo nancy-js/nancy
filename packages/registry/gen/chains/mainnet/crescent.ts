@@ -16,6 +16,8 @@ export default {
         "https://crescent-rpc.w3coins.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

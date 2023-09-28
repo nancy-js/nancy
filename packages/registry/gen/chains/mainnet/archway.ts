@@ -27,6 +27,8 @@ export default {
         "https://archway-rpc.stake-town.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       juno: {
         portId: "transfer",
@@ -155,6 +157,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-40",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      bitcanna: {
+        portId: "transfer",
+        channelId:
+          "channel-33",
+        counterpartyChainId:
+          "bitcanna",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-49",
         order: "unordered",
         version: "ics20-1",
       },

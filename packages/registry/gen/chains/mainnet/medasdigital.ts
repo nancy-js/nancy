@@ -9,6 +9,8 @@ export default {
         "https://rpc.medas-digital.io:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -21,6 +21,8 @@ export default {
         "https://fetch-rpc.highstakes.ch:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

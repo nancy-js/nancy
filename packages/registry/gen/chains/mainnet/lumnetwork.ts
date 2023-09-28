@@ -14,6 +14,8 @@ export default {
         "https://lum-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -14,6 +14,8 @@ export default {
         "https://sifchain-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

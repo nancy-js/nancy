@@ -1,6 +1,6 @@
 {
   "name": "nancy",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -17,7 +17,7 @@
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "tsconfig": "workspace:*",
+    "tsconfig": "workspace:packages/tsconfig",
     "turbo": "latest"
   }
 }

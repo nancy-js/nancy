@@ -11,6 +11,8 @@ export default {
         "https://starname.nodejumper.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       cryptoorgchain: {
         portId: "transfer",

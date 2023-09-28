@@ -11,6 +11,8 @@ export default {
         "https://rpc-likecoin-mainnet.pikaser.net",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

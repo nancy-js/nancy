@@ -29,6 +29,8 @@ export default {
         "https://quicksilver-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

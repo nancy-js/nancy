@@ -14,6 +14,8 @@ export default {
         "https://iris-rpc.highstakes.ch:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       persistence: {
         portId: "transfer",
@@ -155,6 +157,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-6",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-33",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-3",
         order: "unordered",
         version: "ics20-1",
       },

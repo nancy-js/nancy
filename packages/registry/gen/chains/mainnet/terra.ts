@@ -13,6 +13,8 @@ export default {
         "https://terraclassic-rpc-server-01.stakely.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       acrechain: {
         portId: "transfer",

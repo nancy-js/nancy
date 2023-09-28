@@ -13,6 +13,8 @@ export default {
         "https://ixo-rpc.ibs.team",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",
@@ -27,12 +29,38 @@ export default {
         order: "unordered",
         version: "ics20-1",
       },
+      axelar: {
+        portId: "transfer",
+        channelId:
+          "channel-23",
+        counterpartyChainId:
+          "axelar",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-114",
+        order: "unordered",
+        version: "ics20-1",
+      },
       sifchain: {
         portId: "transfer",
         channelId:
           "channel-11",
         counterpartyChainId:
           "sifchain",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-15",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      noble: {
+        portId: "transfer",
+        channelId:
+          "channel-26",
+        counterpartyChainId:
+          "noble",
         counterpartyPortId:
           "transfer",
         counterpartyChannelId:

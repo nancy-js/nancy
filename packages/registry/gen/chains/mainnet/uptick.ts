@@ -20,6 +20,8 @@ export default {
         "https://rpc-uptick.cakralabs.site",
       ],
     },
+  },
+  ibc: {
     channels: {
       irisnet: {
         portId: "transfer",

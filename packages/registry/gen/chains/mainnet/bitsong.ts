@@ -18,6 +18,8 @@ export default {
         "https://bitsong-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

@@ -9,6 +9,8 @@ export default {
         "https://vota-rpc.dorafactory.org/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

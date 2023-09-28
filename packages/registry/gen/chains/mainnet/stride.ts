@@ -31,6 +31,8 @@ export default {
         "https://community.nuxian-node.ch:6797/stride/trpc",
       ],
     },
+  },
+  ibc: {
     channels: {
       carbon: {
         portId: "transfer",

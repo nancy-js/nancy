@@ -17,6 +17,8 @@ export default {
         "https://quasar-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

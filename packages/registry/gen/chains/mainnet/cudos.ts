@@ -13,6 +13,8 @@ export default {
         "https://cudos-rpc.lavenderfive.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

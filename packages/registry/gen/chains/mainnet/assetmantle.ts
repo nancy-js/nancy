@@ -21,6 +21,8 @@ export default {
         "https://assetmantle-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       kujira: {
         portId: "transfer",

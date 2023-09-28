@@ -10,6 +10,8 @@ export default {
         "https://fx-json.portfolio-x.xyz:26657",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

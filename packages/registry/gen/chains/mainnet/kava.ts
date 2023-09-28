@@ -15,6 +15,8 @@ export default {
         "https://kava-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       kujira: {
         portId: "transfer",
@@ -91,6 +93,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-11",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      aura: {
+        portId: "transfer",
+        channelId:
+          "channel-124",
+        counterpartyChainId:
+          "aura",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-7",
         order: "unordered",
         version: "ics20-1",
       },

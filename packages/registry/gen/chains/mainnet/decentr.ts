@@ -19,6 +19,8 @@ export default {
         "https://rpc-decentr.mms.team/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

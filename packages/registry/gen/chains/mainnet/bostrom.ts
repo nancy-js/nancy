@@ -11,6 +11,8 @@ export default {
         "https://rpc-cyber-ia.cosmosia.notional.ventures/",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

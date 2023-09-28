@@ -17,6 +17,8 @@ export default {
         "https://rpc.band.indonode.net",
       ],
     },
+  },
+  ibc: {
     channels: {
       comdex: {
         portId: "oracle",

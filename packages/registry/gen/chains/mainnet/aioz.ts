@@ -9,6 +9,8 @@ export default {
         "https://rpc-dataseed.aioz.network:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

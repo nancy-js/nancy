@@ -13,6 +13,8 @@ export default {
         "https://rpc-oraichain.mms.team",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

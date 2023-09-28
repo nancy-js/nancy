@@ -14,6 +14,8 @@ export default {
         "https://rpc.meme.stake-take.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -11,6 +11,8 @@ export default {
         "https://odin-mainnet-rpc.autostake.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       axelar: {
         portId: "transfer",

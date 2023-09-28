@@ -10,6 +10,8 @@ export default {
         "https://panacea-rpc.staketab.org:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

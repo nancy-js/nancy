@@ -9,6 +9,8 @@ export default {
         "https://26657.genesisl1.org",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

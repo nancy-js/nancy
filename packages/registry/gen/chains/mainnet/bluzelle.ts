@@ -13,6 +13,8 @@ export default {
         "https://rpc-curium.nodine.id",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

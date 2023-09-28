@@ -15,6 +15,8 @@ export default {
         "https://secretnetwork-rpc.highstakes.ch:26657/",
       ],
     },
+  },
+  ibc: {
     channels: {
       axelar: {
         portId: "transfer",
@@ -169,6 +171,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-52",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      noble: {
+        portId: "transfer",
+        channelId:
+          "channel-88",
+        counterpartyChainId:
+          "noble",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-17",
         order: "unordered",
         version: "ics20-1",
       },

@@ -1,12 +1,10 @@
-import {
-  loadAssets,
-  loadChains,
-} from "./cosmos-registry/loaders/load-chains.js";
-import { all } from "@nancy/core/utils/promises.js";
+import { loadChains } from "./cosmos-registry/loaders/load-chains.js";
+import { all } from "@nancy/core";
 import { maybeUpdateRegistryRepo } from "./update-registry-repo.js";
 import { makeTendermintModule } from "./cosmos-registry/tendermint/index.js";
 import { mkdir } from "fs/promises";
 import { writeTsFile } from "./writeTsFile.js";
+import { makeIBCModule } from "./cosmos-registry/ibc/index.js";
 
 const start =
   performance.now();
@@ -25,6 +23,10 @@ const modules = (
           await makeTendermintModule(
             chain,
           ),
+
+        ibc: await makeIBCModule(
+          chain,
+        ),
       }),
     ),
   )

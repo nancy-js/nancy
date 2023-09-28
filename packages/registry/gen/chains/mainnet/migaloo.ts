@@ -17,6 +17,8 @@ export default {
         "https://migaloo-rpc.cosmosrescue.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       kujira: {
         portId: "transfer",

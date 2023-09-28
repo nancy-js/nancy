@@ -14,6 +14,8 @@ export default {
         "https://emoney-mainnet-rpc.autostake.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       juno: {
         portId: "transfer",

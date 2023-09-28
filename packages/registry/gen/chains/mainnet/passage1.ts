@@ -6,4 +6,5 @@ export default {
   tendermint: {
     api: {},
   },
+  ibc: {},
 } as const;

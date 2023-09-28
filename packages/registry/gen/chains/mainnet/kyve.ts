@@ -19,6 +19,8 @@ export default {
         "https://rpc-kyve.mms.team",
       ],
     },
+  },
+  ibc: {
     channels: {
       axelar: {
         portId: "transfer",

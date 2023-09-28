@@ -22,6 +22,8 @@ export default {
         "https://rpc-omniflix.mzonder.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

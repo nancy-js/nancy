@@ -11,6 +11,8 @@ export default {
         "https://rpc.carbon.blockhunters.org",
       ],
     },
+  },
+  ibc: {
     channels: {
       stride: {
         portId: "transfer",

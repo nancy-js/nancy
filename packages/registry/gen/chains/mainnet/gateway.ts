@@ -10,6 +10,8 @@ export default {
         "https://wormchain.jumpisolated.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -20,6 +20,8 @@ export default {
         "https://community.nuxian-node.ch:6797/nolus/trpc",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

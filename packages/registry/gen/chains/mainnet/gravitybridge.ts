@@ -19,6 +19,8 @@ export default {
         "https://gravity-rpc.w3coins.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       agoric: {
         portId: "transfer",

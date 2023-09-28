@@ -5,6 +5,8 @@ export default {
   name: "microtick",
   tendermint: {
     api: {},
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

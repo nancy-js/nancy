@@ -12,6 +12,8 @@ export default {
         "https://rpc.point.indonode.net",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

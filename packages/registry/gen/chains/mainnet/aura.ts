@@ -25,6 +25,8 @@ export default {
         "https://rpc-aura.mms.team",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",
@@ -62,6 +64,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-104",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      kava: {
+        portId: "transfer",
+        channelId:
+          "channel-7",
+        counterpartyChainId:
+          "kava",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-124",
         order: "unordered",
         version: "ics20-1",
       },

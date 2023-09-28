@@ -43,6 +43,8 @@ export default {
         "https://cosmoshub-4-archive.rpc.l0vd.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       bitsong: {
         portId: "transfer",
@@ -548,6 +550,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-11",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-369",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-0",
         order: "unordered",
         version: "ics20-1",
       },

@@ -9,6 +9,8 @@ export default {
         "https://noble-rpc.polkachu.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       stargaze: {
         portId: "transfer",
@@ -33,6 +35,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-536",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      secretnetwork: {
+        portId: "transfer",
+        channelId:
+          "channel-17",
+        counterpartyChainId:
+          "secretnetwork",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-88",
         order: "unordered",
         version: "ics20-1",
       },
@@ -88,6 +103,19 @@ export default {
         order: "unordered",
         version: "ics20-1",
       },
+      impacthub: {
+        portId: "transfer",
+        channelId:
+          "channel-15",
+        counterpartyChainId:
+          "impacthub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-26",
+        order: "unordered",
+        version: "ics20-1",
+      },
       juno: {
         portId: "transfer",
         channelId:
@@ -98,6 +126,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-224",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      neutron: {
+        portId: "transfer",
+        channelId:
+          "channel-18",
+        counterpartyChainId:
+          "neutron",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-30",
         order: "unordered",
         version: "ics20-1",
       },

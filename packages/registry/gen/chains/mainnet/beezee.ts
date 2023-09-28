@@ -11,6 +11,8 @@ export default {
         "https://rpc-2.getbze.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

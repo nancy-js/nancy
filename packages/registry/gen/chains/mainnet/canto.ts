@@ -16,6 +16,8 @@ export default {
         "https://canto-mainnet-rpc.autostake.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

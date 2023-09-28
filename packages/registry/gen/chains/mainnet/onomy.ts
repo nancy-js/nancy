@@ -9,6 +9,8 @@ export default {
         "https://rpc-mainnet.onomy.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -21,6 +21,8 @@ export default {
         "https://mars-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       neutron: {
         portId: "transfer",

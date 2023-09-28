@@ -14,6 +14,8 @@ export default {
         "https://rpc.8ball.nodexcapital.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

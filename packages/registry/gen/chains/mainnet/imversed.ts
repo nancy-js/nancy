@@ -9,6 +9,8 @@ export default {
         "https://rpc.imversed.network:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

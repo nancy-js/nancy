@@ -28,6 +28,8 @@ export default {
         "https://teritori-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

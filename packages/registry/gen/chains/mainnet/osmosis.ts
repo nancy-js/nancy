@@ -33,6 +33,8 @@ export default {
         "https://osmosis-rpc.stake-town.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       medasdigital: {
         portId: "transfer",
@@ -915,6 +917,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-1",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-5413",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-10",
         order: "unordered",
         version: "ics20-1",
       },

@@ -47,7 +47,7 @@ const hasArg = (
 export const maybeUpdateRegistryRepo =
   () => {
     if (
-      !hasArg(
+      hasArg(
         "--ignore-repo-update",
       )
     ) {

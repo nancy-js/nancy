@@ -2,7 +2,7 @@ import { glob } from "glob";
 import { CosmosChain } from "../types/chain.js";
 import { AssetLists } from "../types/assets.js";
 import { IBCData } from "../types/ibc-data.js";
-import { all } from "@nancy/core/utils/promises.js";
+import { all } from "@nancy/core";
 import { memoize } from "lodash-es";
 
 export const loadFiles =

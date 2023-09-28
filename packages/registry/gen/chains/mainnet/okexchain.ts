@@ -9,6 +9,8 @@ export default {
         "https://exchaintmrpc.okex.org",
       ],
     },
+  },
+  ibc: {
     channels: {
       assetmantle: {
         portId: "transfer",

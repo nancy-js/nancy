@@ -11,6 +11,8 @@ export default {
         "https://cronos-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       kava: {
         portId: "transfer",

@@ -7,12 +7,14 @@ export default {
     api: {
       "jsonrpc-http": [
         "https://realio-rpc.genznodes.dev",
-        "https://rpc-realio.nodeist.net",
+        "https://rpc-realio-network.nodeist.net",
         "http://realio.rpc.m.stavr.tech:21097",
         "https://rpc.realio.indonode.net",
         "https://rpc.realio.nodestake.top",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -18,6 +18,8 @@ export default {
         "https://mainnet-empower-rpc.konsortech.xyz",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

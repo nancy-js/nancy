@@ -19,6 +19,8 @@ export default {
         "https://planq-rpc.genznodes.dev",
       ],
     },
+  },
+  ibc: {
     channels: {
       sei: {
         portId: "transfer",

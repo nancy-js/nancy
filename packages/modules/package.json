@@ -5,13 +5,19 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "bun run ./build.ts && bun run build:types"
+    "build": "bun run ./build.ts",
+    "dev": "bun run build --watch",
+    "build:types": "bun tsc -p ./tsconfig.build.json"
   },
   "devDependencies": {
-    "@nancy/apis": "workspace:*",
+    "@nancy/apis": "workspace:../apis",
+    "@nancy/core": "workspace:../core",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "valibot": "^0.17.0"
   }
 }

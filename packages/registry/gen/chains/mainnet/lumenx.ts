@@ -12,6 +12,8 @@ export default {
         "https://rpc.lumenx.hexnodes.co",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

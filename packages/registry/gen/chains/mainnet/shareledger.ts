@@ -9,6 +9,8 @@ export default {
         "https://rpc.explorer.shareri.ng",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

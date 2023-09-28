@@ -16,6 +16,8 @@ export default {
         "https://coreum-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       cosmoshub: {
         portId: "transfer",

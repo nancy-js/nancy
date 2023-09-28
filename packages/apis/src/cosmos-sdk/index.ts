@@ -1,7 +1,13 @@
 // https://raw.githubusercontent.com/cosmos/cosmos-sdk/main/client/docs/swagger-ui/swagger.yaml
 
-import { createClient } from "../createClient.ts";
-import type { paths } from "./openapi-types.ts";
+import { createClientFactory } from "../createClient.js";
 
-export const makeCosmosSDKClient =
-  createClient<paths>();
+import type { paths } from "./openapi-types.js";
+
+export const makeCosmosSDKClient: ReturnType<
+  typeof createClientFactory<paths>
+> = createClientFactory<paths>();
+
+export type CosmosSDKClient = ReturnType<
+  ReturnType<typeof createClientFactory<paths>>
+>;

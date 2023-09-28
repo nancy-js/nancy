@@ -29,6 +29,8 @@ export default {
         "https://rpc-kujira.rorcualnodes.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       assetmantle: {
         portId: "transfer",
@@ -92,6 +94,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-100",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-63",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-6",
         order: "unordered",
         version: "ics20-1",
       },

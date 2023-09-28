@@ -17,6 +17,8 @@ export default {
         "https://acred-rpc.staketab.org:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

@@ -12,6 +12,8 @@ export default {
         "https://rpc.lambda.nodestake.top",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

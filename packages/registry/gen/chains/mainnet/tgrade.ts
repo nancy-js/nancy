@@ -10,6 +10,8 @@ export default {
         "https://rpc.tgrade.posthuman.digital",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

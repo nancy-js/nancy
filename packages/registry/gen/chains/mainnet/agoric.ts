@@ -20,6 +20,8 @@ export default {
         "https://rpc.agoric.stakewith.us",
       ],
     },
+  },
+  ibc: {
     channels: {
       gravitybridge: {
         portId: "transfer",

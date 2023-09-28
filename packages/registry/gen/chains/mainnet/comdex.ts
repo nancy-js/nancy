@@ -22,6 +22,8 @@ export default {
         "https://comdex-rpc.validatornode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

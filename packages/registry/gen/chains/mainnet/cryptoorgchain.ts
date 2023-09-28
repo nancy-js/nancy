@@ -15,6 +15,8 @@ export default {
         "https://cro-chain-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

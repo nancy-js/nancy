@@ -27,6 +27,8 @@ export default {
         "https://jackal.rpc.silknodes.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

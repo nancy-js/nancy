@@ -3,7 +3,7 @@ import {
   expect,
   test,
 } from "bun:test";
-import { makeEVMClient } from "./index.ts";
+import { makeEVMClient } from "./index.js";
 
 describe("EVM Client", () => {
   const client =

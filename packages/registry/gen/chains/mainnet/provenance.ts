@@ -14,6 +14,8 @@ export default {
         "https://provenance-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

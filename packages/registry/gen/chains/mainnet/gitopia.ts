@@ -32,6 +32,8 @@ export default {
         "https://mainnet-gitopia-rpc.konsortech.xyz",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

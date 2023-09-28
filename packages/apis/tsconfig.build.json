@@ -1,14 +1,19 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "declarationDir": "./dist",
+    "outDir": "./dist",
     "noEmit": false,
     "declaration": true,
-
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
+    "declarationMap": true,
+    "isolatedModules": false,
     "rootDir": "./src"
   },
-  "include": ["./src/**/*"],
+  "include": [
+    "./src/index.ts"
+  ],
   "exclude": [
-    "./src/**/*.test.ts"
+    "./**/*.test.ts"
   ]
 }

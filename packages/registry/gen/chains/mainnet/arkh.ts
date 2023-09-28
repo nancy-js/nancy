@@ -13,6 +13,8 @@ export default {
         "https://rpc.arkh.nodexcapital.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

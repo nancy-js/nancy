@@ -15,6 +15,8 @@ export default {
         "https://rizon-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

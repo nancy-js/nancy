@@ -16,6 +16,8 @@ export default {
         "https://desmos-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

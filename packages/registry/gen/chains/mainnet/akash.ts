@@ -23,6 +23,8 @@ export default {
         "https://akash-rpc.validatornode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       secretnetwork: {
         portId: "transfer",

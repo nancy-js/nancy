@@ -29,6 +29,8 @@ export default {
         "https://axelar-rpc.w3coins.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       secretnetwork: {
         portId: "transfer",
@@ -79,6 +81,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-71",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      impacthub: {
+        portId: "transfer",
+        channelId:
+          "channel-114",
+        counterpartyChainId:
+          "impacthub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-23",
         order: "unordered",
         version: "ics20-1",
       },

@@ -5,15 +5,17 @@ import {
 
 const keys = Object.keys;
 
-await Bun.build({
-  entrypoints: [
-    "./src/index.ts",
-  ],
-  outdir: "./dist",
-  external: [
-    ...keys({
-      ...devDependencies,
-      ...peerDependencies,
-    }),
-  ],
-});
+const bunResult =
+  await Bun.build({
+    entrypoints: [
+      "./src/index.ts",
+    ],
+
+    outdir: "./dist/bun",
+    // external: [
+    //   ...keys({
+    //     ...devDependencies,
+    //     ...peerDependencies,
+    //   }),
+    // ],
+  });

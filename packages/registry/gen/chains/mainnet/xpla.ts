@@ -10,6 +10,8 @@ export default {
         "https://xpla-rpc.lavenderfive.com:443",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

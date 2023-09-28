@@ -25,6 +25,8 @@ export default {
         "https://stargaze-rpc.publicnode.com",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

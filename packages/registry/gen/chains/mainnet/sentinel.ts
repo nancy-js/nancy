@@ -17,6 +17,8 @@ export default {
         "https://sentinel-rpc.validatornode.com/",
       ],
     },
+  },
+  ibc: {
     channels: {
       starname: {
         portId: "transfer",

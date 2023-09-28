@@ -15,6 +15,8 @@ export default {
         "https://kichain-rpc.panthea.eu",
       ],
     },
+  },
+  ibc: {
     channels: {
       osmosis: {
         portId: "transfer",

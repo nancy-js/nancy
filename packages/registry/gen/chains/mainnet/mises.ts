@@ -14,4 +14,5 @@ export default {
       ],
     },
   },
+  ibc: {},
 } as const;

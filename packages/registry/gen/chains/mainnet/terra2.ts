@@ -19,6 +19,8 @@ export default {
         "https://rpc-terra.wildsage.io",
       ],
     },
+  },
+  ibc: {
     channels: {
       neutron: {
         portId:
@@ -135,6 +137,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-2",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      stafihub: {
+        portId: "transfer",
+        channelId:
+          "channel-204",
+        counterpartyChainId:
+          "stafihub",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-9",
         order: "unordered",
         version: "ics20-1",
       },

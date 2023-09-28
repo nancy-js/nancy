@@ -8,4 +8,5 @@ export default {
       "jsonrpc-http": [],
     },
   },
+  ibc: {},
 } as const;

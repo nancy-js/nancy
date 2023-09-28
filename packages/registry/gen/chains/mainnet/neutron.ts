@@ -17,6 +17,8 @@ export default {
         "https://community.nuxian-node.ch:6797/neutron/trpc",
       ],
     },
+  },
+  ibc: {
     channels: {
       sei: {
         portId: "transfer",
@@ -145,6 +147,19 @@ export default {
           "transfer",
         counterpartyChannelId:
           "channel-569",
+        order: "unordered",
+        version: "ics20-1",
+      },
+      noble: {
+        portId: "transfer",
+        channelId:
+          "channel-30",
+        counterpartyChainId:
+          "noble",
+        counterpartyPortId:
+          "transfer",
+        counterpartyChannelId:
+          "channel-18",
         order: "unordered",
         version: "ics20-1",
       },
