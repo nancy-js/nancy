@@ -5,9 +5,19 @@ export default {
   name: "galaxy",
   tendermint: {
     api: {
-      "jsonrpc-http": [],
+      "jsonrpc-http": [
+        "https://rpc.cosmos.directory/galaxy",
+      ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/galaxy",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

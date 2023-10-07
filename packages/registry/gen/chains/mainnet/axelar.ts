@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/axelar",
         "https://rpc-axelar.imperator.co:443",
         "https://axelar-rpc.quickapi.com:443",
         "https://axelar-rpc.chainode.tech:443",
@@ -30,6 +31,33 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/axelar",
+        "https://lcd-axelar.imperator.co:443",
+        "https://axelar-lcd.quickapi.com:443",
+        "https://axelar-rest.chainode.tech:443",
+        "https://api-axelar.cosmos-spaces.cloud",
+        "https://axelar-lcd.qubelabs.io:443",
+        "https://api-1.axelar.nodes.guru:443",
+        "https://api-axelar-ia.cosmosia.notional.ventures/",
+        "https://axelar-api.polkachu.com",
+        "https://axelar.rest.stakin-nodes.com",
+        "https://api.axelar.bh.rocks",
+        "https://axelar-api.validatrium.club",
+        "https://lcd-axelar.whispernode.com:443",
+        "https://axelar-mainnet-lcd.autostake.com:443",
+        "https://axelar-lcd.quantnode.tech/",
+        "https://axelar-api.ibs.team",
+        "https://api-axelar-01.stakeflow.io",
+        "https://axelar-rest.staketab.org",
+        "https://rest-axelar.carbonZERO.zone:443",
+        "https://axelar-api.w3coins.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       secretnetwork: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/nois",
         "https://nois-rpc.nysa.network",
         "https://nois.rpc.bccnodes.com",
         "https://nois-rpc.lavenderfive.com:443",
@@ -27,6 +28,32 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/nois",
+        "https://api.noismain.mcbnode.online",
+        "https://nois.api.bccnodes.com",
+        "https://m-nois.api.utsa.tech",
+        "https://nois-api.lavenderfive.com:443",
+        "https://lcd-nois.ezstaking.dev",
+        "https://lcd-nois.mib.tech/",
+        "https://nois.api.m.stavr.tech",
+        "https://nois-mainnet-api.itrocket.net",
+        "https://api.nois.nodestake.top",
+        "https://api-nois.d-stake.xyz",
+        "https://lcd.nois.hexnodes.co",
+        "https://api-nois.sr20de.xyz",
+        "https://nois.api.m.stavr.tech",
+        "https://nois-testnet-lcd.autostake.com",
+        "https://nois-api.polkachu.com",
+        "https://nois.kingnodes.com",
+        "https://nois.api.kjnodes.com",
+        "https://api.nois.silentvalidator.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       archway: {

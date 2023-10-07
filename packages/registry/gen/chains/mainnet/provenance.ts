@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/provenance",
         "https://rpc-provenance.takeshi.team/",
         "https://rpc.provenance.io/",
         "https://rpc-provenance-ia.cosmosia.notional.ventures/",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/provenance",
+        "https://api-provenance.takeshi.team",
+        "https://api.provenance.io",
+        "https://api-provenance-ia.cosmosia.notional.ventures/",
+        "https://provenance-api.ibs.team",
+        "https://provenance-api.highstakes.ch:1317/",
+        "https://provenance-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/stargaze",
         "https://rpc.stargaze-apis.com/",
         "https://rpc-stargaze.pupmos.network",
         "https://rpc-stargaze.ezstaking.dev",
@@ -26,6 +27,31 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/stargaze",
+        "https://rest.stargaze-apis.com/",
+        "https://api-stargaze.pupmos.network",
+        "https://api-stargaze.ezstaking.dev",
+        "https://api-stargaze-ia.cosmosia.notional.ventures/",
+        "https://stargaze.c29r3.xyz:443/api/",
+        "https://stargaze-api.polkachu.com",
+        "https://stargaze-api.ibs.team",
+        "https://api-stargaze.d-stake.xyz",
+        "https://api-stargaze.cosmos-spaces.cloud",
+        "https://api.stargaze.silentvalidator.com/",
+        "https://stargaze-mainnet-lcd.autostake.com:443",
+        "https://lcd-stargaze.whispernode.com:443",
+        "https://stargaze-api.ramuchi.tech",
+        "https://stargaze-rest.staketab.org",
+        "https://stargaze-api.w3coins.io",
+        "https://stargaze-rest.stakerhouse.com",
+        "https://stargaze-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

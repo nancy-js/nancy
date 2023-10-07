@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/lumenx",
         "https://rpc-lumenx.cryptonet.pl/",
         "https://lumenx-rpc.kynraze.com/",
         "https://rpc-lumenx.comunitynode.my.id",
@@ -13,6 +14,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/lumenx",
+        "https://api-lumenx.cryptonet.pl/",
+        "https://lumenx-api.kynraze.com",
+        "https://api-lumenx.comunitynode.my.id",
+        "https://api-lumenx.nodine.id/",
+        "https://lcd.lumenx.hexnodes.co/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

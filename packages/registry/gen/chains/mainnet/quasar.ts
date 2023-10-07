@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/quasar",
         "https://quasar-rpc.lavenderfive.com:443",
         "https://quasar-rpc.polkachu.com",
         "https://rpc-quasar.whispernode.com:443",
@@ -18,6 +19,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/quasar",
+        "https://quasar-api.lavenderfive.com:443",
+        "https://quasar-api.polkachu.com",
+        "https://lcd-quasar.whispernode.com:443",
+        "https://api-quasar.cosmos-spaces.cloud",
+        "https://quasar-lcd.enigma-validator.com",
+        "https://quasar-mainnet-lcd.autostake.com:443",
+        "https://quasar.api.kjnodes.com",
+        "https://lcd-quasar.validavia.me",
+        "https://quasar-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

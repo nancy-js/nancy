@@ -6,10 +6,19 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/okexchain",
         "https://exchaintmrpc.okex.org",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/okexchain",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       assetmantle: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cheqd",
         "https://rpc.cheqd.net",
         "https://cheqd-rpc.lavenderfive.com:443",
         "https://rpc-cheqd-ia.cosmosia.notional.ventures/",
@@ -16,6 +17,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cheqd",
+        "https://api.cheqd.net",
+        "https://cheqd-api.lavenderfive.com:443",
+        "https://api-cheqd-ia.cosmosia.notional.ventures/",
+        "https://cheqd-mainnet-lcd.autostake.com:443",
+        "https://api.cheqd.nodestake.top",
+        "https://lcd-cheqd.whispernode.com:443",
+        "https://rest-cheqd.carbonzero.zone:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

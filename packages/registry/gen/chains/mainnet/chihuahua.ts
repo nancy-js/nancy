@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/chihuahua",
         "https://rpc.chihuahua.wtf",
         "https://rpc-chihuahua.ecostake.com",
         "https://chihuahua-rpc.polkachu.com",
@@ -22,6 +23,27 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/chihuahua",
+        "https://api.chihuahua.wtf",
+        "https://rest-chihuahua.ecostake.com",
+        "https://api-chihuahua-ia.cosmosia.notional.ventures",
+        "https://chihuahua-api.polkachu.com",
+        "https://api-chihuahua.cosmos-spaces.cloud",
+        "https://chihuahua-api.lavenderfive.com",
+        "https://api.huahua.bh.rocks",
+        "https://chihuahua-api.kleomedes.network",
+        "https://api-chihuahua.pupmos.network",
+        "https://lcd-chihuahua.whispernode.com:443",
+        "https://rest-chihuahua.goldenratiostaking.net",
+        "https://chihuahua-mainnet-lcd.autostake.com:443",
+        "https://chihuahua-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       secretnetwork: {

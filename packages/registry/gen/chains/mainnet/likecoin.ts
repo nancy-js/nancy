@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/likecoin",
         "https://mainnet-node.like.co/rpc/",
         "https://likecoin-node.oldcat.io:443/rpc/",
         "https://rpc-likecoin-mainnet.pikaser.net",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/likecoin",
+        "https://mainnet-node.like.co",
+        "https://likecoin-node.oldcat.io:443/api/",
+        "https://rest-likecoin-mainnet.pikaser.net",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

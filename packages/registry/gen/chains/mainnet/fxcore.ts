@@ -6,8 +6,25 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/fxcore",
         "https://fx-json.functionx.io",
         "https://fx-json.portfolio-x.xyz:26657",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/fxcore",
+        "https://fx-rest.functionx.io",
+        "https://fx-rest.portfolio-x.xyz:1317",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://fx-web3.functionx.io",
       ],
     },
   },

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/injective",
         "https://injective-rpc.quickapi.com:443",
         "https://rpc-injective.goldenratiostaking.net",
         "https://injective-rpc.polkachu.com",
@@ -24,6 +25,29 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/injective",
+        "https://injective-lcd.quickapi.com:443",
+        "https://api-injective-ia.cosmosia.notional.ventures/",
+        "https://injective-api.polkachu.com",
+        "https://injective-api.lavenderfive.com:443",
+        "https://rest.injective.posthuman.digital:443",
+        "https://api-injective.cosmos-spaces.cloud",
+        "https://injective-mainnet-lcd.autostake.com:443",
+        "https://lcd-injective.whispernode.com:443",
+        "https://rest-injective.architectnodes.com",
+        "https://api-injective-01.stakeflow.io",
+        "https://rest-injective.goldenratiostaking.net",
+        "https://injective-rest.publicnode.com",
+        "https://injective-api.w3coins.io",
+        "https://injective-api.tienthuattoan.ventures",
+        "https://injective-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

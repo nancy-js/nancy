@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/secretnetwork",
         "https://rpc.secret.express",
         "https://scrt.public-rpc.com",
         "https://secretnetwork-rpc.lavenderfive.com:443",
@@ -16,6 +17,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/secretnetwork",
+        "https://lcd.secret.express",
+        "https://secretnetwork-api.lavenderfive.com:443",
+        "https://lcd-secret.whispernode.com:443",
+        "http://secretnetwork-mainnet-lcd.autostake.com:1317",
+        "https://secret-api.bharvest.io",
+        "https://1rpc.io/scrt-lcd",
+        "https://secretnetwork-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       axelar: {

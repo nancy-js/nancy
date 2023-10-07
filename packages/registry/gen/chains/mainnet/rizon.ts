@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/rizon",
         "http://seed-1.mainnet.rizon.world:26657",
         "https://rpcapi.rizon.world/",
         "https://rpc.rizon.chaintools.tech/",
@@ -16,6 +17,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/rizon",
+        "http://seed-1.mainnet.rizon.world:1317",
+        "https://restapi.rizon.world/",
+        "https://api.rizon.chaintools.tech/",
+        "https://rizon-api.ibs.team/",
+        "https://rizon.nodejumper.io:1317",
+        "https://api-rizon.mms.team",
+        "https://rizon-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

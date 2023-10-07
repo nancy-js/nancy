@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/acrechain",
         "https://rpc.acre.nodestake.top",
         "https://rpc-acre.d-stake.xyz",
         "https://rpc-acre.synergynodes.com",
@@ -15,6 +16,35 @@ export default {
         "https://rpc.acre.tcnetwork.io",
         "https://mainnet-acre-rpc.konsortech.xyz",
         "https://acred-rpc.staketab.org:443",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/acrechain",
+        "https://api-acre.d-stake.xyz",
+        "https://lcd-acre.synergynodes.com",
+        "https://acrechain-mainnet-lcd.autostake.com:443",
+        "https://acre-rest.agoranodes.com",
+        "https://acre-api.genznodes.dev",
+        "https://rest.acre.tcnetwork.io",
+        "https://mainnet-acre-api.konsortech.xyz",
+        "https://acred-rest.staketab.org",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://jsonrpc-acre.d-stake.xyz",
+        "https://rpc2-acre.synergynodes.com",
+        "https://jsonrpc.acre.nodestake.top",
+        "https://acre-rpc-evm.genznodes.dev/",
+        "https://evm-acre.sr20de.xyz/",
+        "https://evm.acrescan.com/",
+        "https://json-rpc.acre.tcnetwork.io",
+        "https://mainnet-acre-evm.konsortech.xyz",
       ],
     },
   },

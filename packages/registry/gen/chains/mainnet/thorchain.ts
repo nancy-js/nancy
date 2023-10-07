@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/thorchain",
         "https://btc.thorchain.info",
         "https://bch.thorchain.info",
         "https://ltc.thorchain.info",
@@ -14,5 +15,13 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/thorchain",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

@@ -6,10 +6,20 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/genesisl1",
         "https://26657.genesisl1.org",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/genesisl1",
+        "https://api.genesisl1.org",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

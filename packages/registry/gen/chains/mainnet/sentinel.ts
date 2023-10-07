@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/sentinel",
         "https://rpc-sentinel-ia.cosmosia.notional.ventures/",
         "https://rpc-sentinel.whispernode.com:443",
         "https://rpc.sentinel.chaintools.tech/",
@@ -18,6 +19,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/sentinel",
+        "https://api-sentinel-ia.cosmosia.notional.ventures/",
+        "https://sentinel-mainnet-lcd.autostake.com:443",
+        "https://lcd-sentinel.whispernode.com:443",
+        "https://api.sentinel.quokkastake.io",
+        "https://sentinel-rest.publicnode.com",
+        "https://sentinel-api.validatornode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       starname: {

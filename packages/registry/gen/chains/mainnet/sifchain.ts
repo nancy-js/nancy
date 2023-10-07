@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/sifchain",
         "https://rpc.sifchain.finance:443",
         "https://sifchain-rpc.polkachu.com",
         "https://rpc-sifchain-ia.cosmosia.notional.ventures/",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/sifchain",
+        "https://api.sifchain.finance:443",
+        "https://api-sifchain-ia.cosmosia.notional.ventures/",
+        "https://sifchain-api.polkachu.com",
+        "https://sif-api.kleomedes.network",
+        "https://sifchain-mainnet-lcd.autostake.com:443",
+        "https://sifchain-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

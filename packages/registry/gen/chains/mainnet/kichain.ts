@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/kichain",
         "https://rpc-mainnet.blockchain.ki",
         "https://kichain-rpc.polkachu.com",
         "https://rpc-kichain-ia.cosmosia.notional.ventures/",
@@ -16,6 +17,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/kichain",
+        "https://api-mainnet.blockchain.ki",
+        "https://api-kichain-ia.cosmosia.notional.ventures/",
+        "https://api.kichain.chaintools.tech/",
+        "https://kichain-api.polkachu.com",
+        "https://kichain-api.lavenderfive.com/",
+        "https://ki-api.ibs.team/",
+        "https://kichain-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

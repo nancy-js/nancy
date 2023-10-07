@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/passage",
         "https://rpc.passage.vitwit.com",
         "https://passage-rpc.staketab.org:443",
         "https://rpc-passage.ecostake.com",
@@ -22,6 +23,27 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/passage",
+        "https://api.passage.vitwit.com",
+        "https://passage-rest.staketab.org",
+        "https://rest-passage.ecostake.com",
+        "https://passage-api.lavenderfive.com:443",
+        "https://api-passage.cosmos-spaces.cloud",
+        "https://api-passage-ia.cosmosia.notional.ventures/",
+        "https://api.passage.nodestake.top",
+        "https://passage-api.polkachu.com",
+        "https://passage-api.ibs.team/",
+        "https://api-passage.d-stake.xyz",
+        "https://passage-mainnet-lcd.autostake.com:443",
+        "https://lcd-passage.whispernode.com:443",
+        "https://passage-rest.stakerhouse.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/sei",
         "https://sei-rpc.lavenderfive.com:443",
         "https://sei-rpc.polkachu.com/",
         "https://sei-rpc.brocha.in/",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/sei",
+        "https://sei-api.lavenderfive.com:443",
+        "https://sei-api.polkachu.com/",
+        "https://sei-rest.brocha.in/",
+        "https://api-sei.stingray.plus/",
+        "https://rest-sei.rhinostake.com",
+        "https://lcd-sei.whispernode.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       neutron: {

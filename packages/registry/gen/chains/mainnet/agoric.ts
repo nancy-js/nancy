@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/agoric",
         "https://main.rpc.agoric.net:443",
         "https://agoric-rpc.polkachu.com",
         "https://rpc.agoric.nodestake.top",
@@ -21,6 +22,24 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/agoric",
+        "https://main.api.agoric.net:443",
+        "https://api.agoric.nodestake.top",
+        "https://agoric-api.polkachu.com",
+        "https://agoric.api.kjnodes.com",
+        "https://agoric-mainnet-lcd.autostake.com:443",
+        "https://api-agoric-01.stakeflow.io",
+        "https://agoric-rest.0base.dev",
+        "https://agoric.mellifera.network:1317",
+        "https://agoric-api.w3coins.io",
+        "https://api.agoric.stakewith.us",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       gravitybridge: {

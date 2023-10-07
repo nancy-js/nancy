@@ -6,9 +6,28 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/tenet",
         "https://tendermint-1.rpc.tenet.org",
         "https://rpc-tenet.nodeist.net",
         "https://tenet-rpc.publicnode.com",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/tenet",
+        "https://app.rpc.tenet.org",
+        "https://api-tenet.nodeist.net",
+        "https://tenet-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://rpc.tenet.org",
+        "https://tenet-evm.publicnode.com",
       ],
     },
   },

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/mises",
         "https://rpc.gw.mises.site:443",
         "https://e1.mises.site:443",
         "https://e2.mises.site:443",
@@ -14,5 +15,13 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/mises",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

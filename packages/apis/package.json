@@ -1,7 +1,6 @@
 {
   "name": "@nancy/apis",
   "version": "1.0.0",
-  "sideEffects": false,
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +23,10 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "typescript": "^5.2.2"
+    "@types/lodash-es": "^4.17.9",
+    "lodash-es": "^4.17.21",
+    "typescript": "^5.2.2",
+    "@nancy/core": "workspace:*",
+    "@nancy/registry": "workspace:*"
   }
 }

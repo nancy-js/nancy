@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/uptick",
         "https://uptick-rpc.brocha.in:443",
         "https://uptick.rpc.bccnodes.com:443",
         "https://rpc.uptick.nodestake.top",
@@ -18,6 +19,33 @@ export default {
         "https://uptick-rpc.stakerhouse.com",
         "https://rpc-uptick.mms.team",
         "https://rpc-uptick.cakralabs.site",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/uptick",
+        "https://uptick-rest.brocha.in:443",
+        "https://uptick.api.bccnodes.com:443",
+        "https://api.uptick.nodestake.top",
+        "https://uptick.api.kjnodes.com",
+        "https://uptick.api.m.stavr.tech",
+        "https://m-uptick.api.utsa.tech",
+        "https://uptick-mainnet-api.itrocket.net:443",
+        "https://uptick.api.liveraven.net",
+        "https://uptick-rest.staketab.org",
+        "https://uptick-rest.stakerhouse.com",
+        "https://api-uptick.mms.team",
+        "https://rest-uptick.cakralabs.site",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://jsonrpc.uptick.nodestake.top",
+        "https://uptick.jsonrpc.liveraven.net",
       ],
     },
   },

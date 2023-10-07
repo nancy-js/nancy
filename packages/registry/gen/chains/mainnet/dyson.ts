@@ -6,12 +6,25 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/dyson",
         "https://dys-tm.dyson.lol:443",
         "https://dys-tm.dysonprotocol.com:443",
         "https://dyson-rpc.cogwheel.zone:443",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/dyson",
+        "https://dys-api.dyson.lol:443",
+        "https://dys-api.dysonprotocol.com:443",
+        "https://dyson-api.genznodes.dev:443",
+        "https://dyson-api.cogwheel.zone:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

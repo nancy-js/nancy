@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/gitopia",
         "https://rpc.gitopia.indonode.net:443",
         "https://gitopia-rpc.polkachu.com:443",
         "https://gitopia-rpc.lavenderfive.com",
@@ -33,6 +34,38 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/gitopia",
+        "https://api.gitopia.indonode.net:443",
+        "https://gitopia-api.polkachu.com:443",
+        "https://gitopia-api.lavenderfive.com",
+        "https://api.gitopia.nodestake.top:443",
+        "https://gitopia-rest.staketab.org",
+        "https://gitopia-mainnet-lcd.autostake.com:443",
+        "https://gitopia-api.ibs.team:443",
+        "https://m-gitopia.api.utsa.tech",
+        "https://gitopia.api.m.stavr.tech",
+        "https://api-gitopia.nodeist.net",
+        "https://gitopia-api.genznodes.dev",
+        "https://lcd-gitopia.whispernode.com:443",
+        "https://lcd.gitopia.hexnodes.co",
+        "https://gitopia.api.liveraven.net",
+        "https://api.gitopia.indonode.net",
+        "https://gitopia-api.stake-town.com",
+        "https://api.gitopia.stake-take.com",
+        "https://rest.gitopia.nodexcapital.com",
+        "https://api.gitopia.silentvalidator.com",
+        "https://gitopia-api.ramuchi.tech",
+        "https://api-gitopia.mzonder.com",
+        "https://gitopia.api.kjnodes.com",
+        "https://api-gitopia.mms.team",
+        "https://mainnet-gitopia-api.konsortech.xyz",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

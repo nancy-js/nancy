@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/decentr",
         "https://poseidon.mainnet.decentr.xyz",
         "https://decentr-rpc.badgerbite.io:443",
         "https://rpc.decentr.chaintools.tech/",
@@ -20,6 +21,24 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/decentr",
+        "https://rest.mainnet.decentr.xyz",
+        "https://api.decentr.chaintools.tech/",
+        "https://decentr-api.ibs.team/",
+        "https://api-dcntr.nodine.id",
+        "https://api-decentr.sxlzptprjkt.xyz",
+        "https://lcd.decentr.hexnodes.co",
+        "https://rest.decentr.nodexcapital.com",
+        "https://api-decentr.comunitynode.my.id",
+        "https://api.decentr.indonode.net",
+        "https://api-decentr.mms.team",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

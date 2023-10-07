@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/fetchhub",
         "https://rpc-fetchhub.fetch.ai:443",
         "https://rpc-fetchhub-ia.cosmosia.notional.ventures/",
         "https://fetch-rpc.polkachu.com",
@@ -22,6 +23,27 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/fetchhub",
+        "https://rest-fetchhub.fetch.ai",
+        "https://api-fetchhub-ia.cosmosia.notional.ventures/",
+        "https://fetch-api.polkachu.com",
+        "https://fetchai-api.kleomedes.network",
+        "https://fetch-rest.teasel.org",
+        "https://fetch-rest.antrixy.org",
+        "https://fetchhub-mainnet-lcd.autostake.com:443",
+        "https://rest-fetch.architectnodes.com",
+        "https://fetch-api.ibs.team",
+        "https://fetch-api.cosmosrescue.com",
+        "https://fetch-api.w3coins.io",
+        "https://fetch-rest.publicnode.com",
+        "https://fetch-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

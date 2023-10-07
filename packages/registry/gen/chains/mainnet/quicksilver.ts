@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/quicksilver",
         "https://rpc-quicksilver.takeshi.team:443",
         "https://rpc.quicksilver.zone:443",
         "https://rpc-quicksilver-ia.cosmosia.notional.ventures:443",
@@ -30,6 +31,33 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/quicksilver",
+        "https://api-quicksilver.takeshi.team:443",
+        "https://api-quicksilver-ia.cosmosia.notional.ventures:443",
+        "https://quicksilver-api.lavenderfive.com:443",
+        "https://api-quicksilver.cosmos-spaces.cloud",
+        "https://quicksilver-mainnet-lcd.autostake.com:443",
+        "https://m-quicksilver.api.utsa.tech",
+        "https://quick.api.m.stavr.tech",
+        "https://quicksilver.api.kjnodes.com",
+        "https://rest-quicksilver.architectnodes.com",
+        "https://quicksilver-api.punq.info",
+        "https://archive-lcd-quicksilver.huginn.tech",
+        "https://api.quicksilver.huginn.tech",
+        "https://api.quicksilver.indonode.net",
+        "https://quicksilver-rest.staketab.org",
+        "https://api.quicksilver.stake-take.com",
+        "https://quicksilver-api.theamsolutions.info",
+        "https://quicksilver-api.w3coins.io",
+        "https://api-quicksilver.mms.team",
+        "https://quicksilver-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

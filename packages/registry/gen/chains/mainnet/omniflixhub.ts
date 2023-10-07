@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/omniflixhub",
         "https://omniflix.kingnodes.com",
         "https://rpc.omniflix.nodestake.top",
         "https://rpc.omniflix.chaintools.tech/",
@@ -23,6 +24,26 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/omniflixhub",
+        "https://api.omniflix.nodestake.top",
+        "https://api-omniflixhub-ia.cosmosia.notional.ventures/",
+        "https://omniflixhub-api.lavenderfive.com/",
+        "https://api-omniflixhub.cosmos-spaces.cloud",
+        "https://api.omniflix.silentvalidator.com/",
+        "https://omniflix.nodejumper.io:1317",
+        "https://omniflix.kingnodes.com",
+        "https://omniflixhub-mainnet-lcd.autostake.com:443",
+        "https://rest-omniflix.architectnodes.com",
+        "https://omniflix-rest.staketab.org",
+        "https://omniflix-api.dakshavalidator.in",
+        "https://api-omniflix.mzonder.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

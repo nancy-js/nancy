@@ -6,11 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/mun",
         "https://mainnet1rpc.mun.money",
         "https://rpc.mun.indonode.net",
         "https://mainnet-mun-rpc.konsortech.xyz",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/mun",
+        "https://mainnet1.mun.money",
+        "https://api.mun.indonode.net",
+        "https://mainnet-mun-api.konsortech.xyz",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

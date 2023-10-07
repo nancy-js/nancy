@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/impacthub",
         "https://proxies.sifchain.finance/api/impacthub-3/rpc",
         "https://impacthub.ixo.world/rpc/",
         "https://rpc-ixo-ia.cosmosia.notional.ventures/",
@@ -14,6 +15,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/impacthub",
+        "https://proxies.sifchain.finance/api/impacthub-3/rest",
+        "https://impacthub.ixo.world/rest/",
+        "https://api-ixo-ia.cosmosia.notional.ventures/",
+        "https://impacthub-api.lavenderfive.com/",
+        "https://ixo-api.ibs.team",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

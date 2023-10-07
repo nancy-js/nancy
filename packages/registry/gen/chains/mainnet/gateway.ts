@@ -6,11 +6,21 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/gateway",
         "https://wormchain-rpc.quickapi.com/",
         "https://wormchain.jumpisolated.com:443",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/gateway",
+        "https://wormchain-lcd.quickapi.com/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

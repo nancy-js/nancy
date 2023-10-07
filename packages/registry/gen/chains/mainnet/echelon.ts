@@ -6,8 +6,26 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/echelon",
         "https://ech01trpc.mindheartsoul.org",
         "https://rpc.echjoker.lol",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/echelon",
+        "https://ech01api.mindheartsoul.org",
+        "https://api.echjoker.lol",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://ech01jrpc.mindheartsoul.org",
+        "https://jrpc.echjoker.lol",
       ],
     },
   },

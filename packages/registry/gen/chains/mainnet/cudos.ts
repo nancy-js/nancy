@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cudos",
         "http://mainnet-full-node-01.hosts.cudos.org:26657",
         "https://mainnet-full-node-02.hosts.cudos.org:36657",
         "https://cudos-rpc.kleomedes.network",
@@ -14,6 +15,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cudos",
+        "http://mainnet-full-node-01.hosts.cudos.org:1317",
+        "https://mainnet-full-node-02.hosts.cudos.org:31317",
+        "https://cudos-api.kleomedes.network",
+        "https://cudos-mainnet-lcd.autostake.com:443",
+        "https://cudos-api.lavenderfive.com/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

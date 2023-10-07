@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/vidulum",
         "https://mainnet-rpc.vidulum.app/",
         "https://rpc-vidulum-ia.cosmosia.notional.ventures/",
         "https://rpc-vdl.nodine.id",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/vidulum",
+        "https://mainnet-lcd.vidulum.app",
+        "https://api-vidulum-ia.cosmosia.notional.ventures/",
+        "https://api-vdl.nodine.id/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       okexchain: {

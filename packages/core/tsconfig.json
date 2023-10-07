@@ -13,6 +13,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
+    "checkJs": true,
     "resolveJsonModule": true,
     "types": ["bun-types"]
   }

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/akash",
         "https://rpc.akash.forbole.com:443",
         "https://rpc-akash.ecostake.com:443",
         "https://akash-rpc.lavenderfive.com:443",
@@ -24,6 +25,29 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/akash",
+        "https://api.akash.forbole.com:443",
+        "https://rest-akash.ecostake.com",
+        "https://akash-api.lavenderfive.com:443",
+        "https://akash-api.polkachu.com",
+        "https://api-akash.cosmos-spaces.cloud",
+        "https://api-akash-ia.cosmosia.notional.ventures",
+        "https://akash.c29r3.xyz:443/api",
+        "https://akash-mainnet-lcd.autostake.com:443",
+        "https://akash.rest.interchain.ivaldilabs.xyz",
+        "https://akash-api.kleomedes.network",
+        "https://api-akash-01.stakeflow.io",
+        "https://akash-mainnet-rest.cosmonautstakes.com:443",
+        "https://akash-api.w3coins.io",
+        "https://akash-rest.publicnode.com",
+        "https://akash-api.validatornode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       secretnetwork: {

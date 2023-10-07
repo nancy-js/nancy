@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/jackal",
         "https://rpc.jackalprotocol.com",
         "https://jackal-rpc.lavenderfive.com:443",
         "https://rpc-jackal.d-stake.xyz",
@@ -28,6 +29,32 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/jackal",
+        "https://api.jackalprotocol.com",
+        "https://jackal.api.bccnodes.com",
+        "https://jackal-api.lavenderfive.com:443",
+        "https://api-jackal.d-stake.xyz",
+        "https://jkl.api.m.stavr.tech",
+        "https://api.jackal.nodestake.top",
+        "https://api-jackal.nodeist.net",
+        "https://jackal-api.polkachu.com",
+        "https://jackal-rest.agoranodes.com",
+        "https://m-jackal.api.utsa.tech",
+        "https://jackal-api.kleomedes.network",
+        "https://jackal.nodejumper.io:1317",
+        "https://api-jkl.kjinc.io",
+        "https://jackal-mainnet-lcd.autostake.com:443",
+        "https://lcd-jackal.whispernode.com:443",
+        "https://jackal.api.kjnodes.com",
+        "https://jackal.api.silknodes.io",
+        "https://rest-jackal.carbonZERO.zone:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

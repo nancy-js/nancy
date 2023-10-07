@@ -6,7 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/highbury",
         "https://gridiron.furya.io",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/highbury",
+        "https://api-mainnet.furya.io/",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://rest.furya.io/",
       ],
     },
   },

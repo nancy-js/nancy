@@ -5,8 +5,18 @@ export default {
   name: "idep",
   tendermint: {
     api: {
-      "jsonrpc-http": [],
+      "jsonrpc-http": [
+        "https://rpc.cosmos.directory/idep",
+      ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/idep",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

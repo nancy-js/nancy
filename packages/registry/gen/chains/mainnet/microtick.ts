@@ -3,9 +3,9 @@
  */
 export default {
   name: "microtick",
-  tendermint: {
-    api: {},
-  },
+  tendermint: null,
+  cosmossdk: null,
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

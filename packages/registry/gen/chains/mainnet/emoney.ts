@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/emoney",
         "https://emoney.validator.network",
         "https://rpc-emoney-ia.cosmosia.notional.ventures/",
         "https://rpc.emoney.quokkastake.io",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/emoney",
+        "https://emoney.validator.network/api/",
+        "https://api-emoney-ia.cosmosia.notional.ventures/",
+        "https://api.emoney.quokkastake.io",
+        "https://e-money-api.ibs.team",
+        "https://api.emoney.bh.rocks",
+        "https://emoney-mainnet-lcd.autostake.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       juno: {

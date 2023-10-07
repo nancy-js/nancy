@@ -6,10 +6,20 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/doravota",
         "https://vota-rpc.dorafactory.org/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/doravota",
+        "https://vota-rest.dorafactory.org",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

@@ -3,6 +3,7 @@ import {
   makeUnwrapablePromise,
   makeError,
   tryCatch,
+  R,
 } from "@nancy/core";
 
 export const fetchBlockNumber = (
@@ -15,21 +16,19 @@ export const fetchBlockNumber = (
     );
 
     if (error) {
-      return [
+      return R.fail(
         makeError(
           "FailedToFetch",
           "Could not fetch block number",
           { cause: error },
         ),
-        undefined,
-      ] as const;
+      );
     }
     const blockNumber = block.result?.block?.header?.height;
     if (!block || blockNumber === undefined) {
-      return [
+      return R.fail(
         makeError("BlockNotFound", "Could not find block"),
-        undefined,
-      ] as const;
+      );
     }
 
     const [parseError, parsedBlockNumber] = await tryCatch(
@@ -37,7 +36,7 @@ export const fetchBlockNumber = (
     );
 
     if (parseError) {
-      return [
+      return R.fail(
         makeError(
           "FailedToParse",
           "Could not parse block number",
@@ -45,9 +44,8 @@ export const fetchBlockNumber = (
             cause: parseError,
           },
         ),
-        undefined,
-      ] as const;
+      );
     }
 
-    return [undefined, parsedBlockNumber] as const;
+    return R.ok(parsedBlockNumber);
   });

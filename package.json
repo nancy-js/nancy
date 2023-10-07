@@ -2,8 +2,10 @@
   "name": "nancy",
   "private": false,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
+  "license": "MIT",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -17,7 +19,7 @@
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "tsconfig": "workspace:packages/tsconfig",
+    "tsconfig": "workspace:*",
     "turbo": "latest"
   }
 }

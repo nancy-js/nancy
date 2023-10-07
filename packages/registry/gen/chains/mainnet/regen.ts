@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/regen",
         "https://rpc-regen.ecostake.com",
         "http://public-rpc.regen.vitwit.com:26657",
         "https://regen.stakesystems.io:2053",
@@ -19,6 +20,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/regen",
+        "http://public-rpc.regen.vitwit.com:1317",
+        "https://regen.stakesystems.io",
+        "https://api-regen-ia.cosmosia.notional.ventures/",
+        "https://regen-mainnet-lcd.autostake.com:443",
+        "https://rest-regen.ecostake.com",
+        "https://regen-lcd.easy2stake.com",
+        "https://regen-api.theamsolutions.info",
+        "https://regen-api.w3coins.io",
+        "https://regen-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       sifchain: {

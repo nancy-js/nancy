@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/nomic",
         "http://138.197.71.46:26657",
         "https://nomic-rpc.polkachu.com/",
         "https://rpc.nomic.interbloc.org",
@@ -15,5 +16,14 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/nomic",
+        "https://app.nomic.io:8443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

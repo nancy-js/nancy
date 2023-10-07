@@ -6,11 +6,22 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cerberus",
         "https://cerberus-rpc.polkachu.com",
         "https://cerberus-rpc.kleomedes.network",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cerberus",
+        "https://cerberus-api.polkachu.com",
+        "https://cerberus-api.kleomedes.network",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

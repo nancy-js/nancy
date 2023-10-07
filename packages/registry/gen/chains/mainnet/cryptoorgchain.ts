@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cryptoorgchain",
         "https://rpc.mainnet.crypto.org/",
         "https://rpc-cryptoorgchain-ia.cosmosia.notional.ventures/",
         "https://rpc-cryptoorgchain.ecostake.com",
@@ -16,6 +17,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cryptoorgchain",
+        "https://rest.mainnet.crypto.org/",
+        "https://api-cryptoorgchain-ia.cosmosia.notional.ventures/",
+        "https://cryptocom-api.polkachu.com",
+        "https://rest-cryptoorgchain.ecostake.com",
+        "https://cryptocom-api.w3coins.io",
+        "https://api-cryptoorg.cosmos-spaces.cloud",
+        "https://cro-chain-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

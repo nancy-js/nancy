@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/beezee",
         "https://rpc.getbze.com",
         "https://rpc-1.getbze.com",
         "https://rpc-2.getbze.com",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/beezee",
+        "https://rest.getbze.com",
+        "https://rest-1.getbze.com",
+        "https://rest-2.getbze.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

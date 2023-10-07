@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/coreum",
         "https://full-node.mainnet-1.coreum.dev:26657",
         "https://full-node-californium.mainnet-1.coreum.dev:26657",
         "https://full-node-curium.mainnet-1.coreum.dev:26657",
@@ -17,6 +18,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/coreum",
+        "https://rest-coreum.ecostake.com",
+        "https://rest.coreum.nodexcapital.com",
+        "https://coreum.api.silknodes.io",
+        "https://full-node.mainnet-1.coreum.dev:1317",
+        "https://coreum-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

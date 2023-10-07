@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/desmos",
         "https://rpc.mainnet.desmos.network",
         "https://desmos-rpc.lavenderfive.com/",
         "https://desmos-rpc.ibs.team/",
@@ -17,6 +18,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/desmos",
+        "https://api.mainnet.desmos.network",
+        "https://desmos-api.lavenderfive.com/",
+        "https://desmos-api.ibs.team/",
+        "https://desmos.nodejumper.io:1317",
+        "https://api-desmos.explorer.co.id",
+        "https://desmos-rest.staketab.org",
+        "https://desmos-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

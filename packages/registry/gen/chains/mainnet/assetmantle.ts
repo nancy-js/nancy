@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/assetmantle",
         "https://rpc.assetmantle.one",
         "https://rpc-assetmantle.blockpower.capital",
         "https://rpc-assetmantle.ecostake.com",
@@ -22,6 +23,26 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/assetmantle",
+        "https://rest.assetmantle.one",
+        "https://rest-assetmantle.ecostake.com",
+        "https://api.assetmantle.nodestake.top",
+        "https://api-assetmantle-ia.cosmosia.notional.ventures",
+        "https://assetmantle-api.polkachu.com",
+        "https://api-assetmanle.d-stake.xyz",
+        "https://lcd-assetmantle.whispernode.com:443",
+        "https://rest-assetmantle.carbonZERO.zone:443",
+        "https://assetmantle.nodejumper.io:1317",
+        "https://api.mantle.paranorm.pro:443",
+        "https://assetmantle-rest.stakerhouse.com",
+        "https://assetmantle-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       kujira: {

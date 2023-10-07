@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/firmachain",
         "https://lcd-mainnet.firmachain.dev:26657",
         "https://rpc.firmachain.chaintools.tech/",
         "https://firmachain-rpc.lavenderfive.com/",
@@ -13,5 +14,17 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/firmachain",
+        "https://lcd-mainnet.firmachain.dev:1317",
+        "https://api.firmachain.chaintools.tech/",
+        "https://firmachain-api.lavenderfive.com/",
+        "https://firmachain-api.ramuchi.tech",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

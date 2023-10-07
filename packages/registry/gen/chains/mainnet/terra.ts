@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/terra",
         "https://rpc.terrarebels.net",
         "https://terra-classic-rpc.publicnode.com",
         "https://rpc-terra-ia.cosmosia.notional.ventures/",
@@ -14,6 +15,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/terra",
+        "https://lcd.terrarebels.net",
+        "https://terra-classic-lcd.publicnode.com",
+        "https://api-terra-ia.cosmosia.notional.ventures/",
+        "https://terraclassic-mainnet-lcd.autostake.com:443",
+        "https://terraclassic-lcd-server-01.stakely.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       acrechain: {

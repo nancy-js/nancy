@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/terpnetwork",
         "https://rpc-terp.zenchainlabs.io/",
         "https://rpc.terp.network:443",
         "https://rpc.terp.nodestake.top:443",
@@ -16,5 +17,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/terpnetwork",
+        "https://api-terp.zenchainlabs.io:443",
+        "https://rpc.terp.nodestake.top:443",
+        "https://api.terp.network:443",
+        "https://terp-mainnet-api.itrocket.net:443",
+        "https://terp-api.d-stake.xyz:443",
+        "https://rest.terp.nodexcapital.com:443",
+        "https://lcd.terpnetwork.hexnodes.co:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

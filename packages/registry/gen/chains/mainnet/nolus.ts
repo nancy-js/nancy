@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/nolus",
         "https://pirin-cl.nolus.network:26657",
         "https://nolus-mainnet-rpc.autostake.com:443",
         "https://nolus-rpc.lavenderfive.com:443",
@@ -21,6 +22,26 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/nolus",
+        "https://pirin-cl.nolus.network:1317",
+        "https://nolus-mainnet-lcd.autostake.com:443",
+        "https://nolus-api.lavenderfive.com:443",
+        "https://nolus-lcd.sphincs.plus",
+        "https://api-nolus.cosmos-spaces.cloud",
+        "https://nolus.api.liveraven.net",
+        "https://rest-nolus.architectnodes.com",
+        "https://nolus.api.kjnodes.com",
+        "https://nolus-lcd.enigma-validator.com/",
+        "https://nolus-api.w3coins.io",
+        "https://nolus-rest.publicnode.com",
+        "https://community.nuxian-node.ch:6797/nolus/crpc",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

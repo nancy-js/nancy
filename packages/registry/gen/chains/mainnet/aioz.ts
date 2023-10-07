@@ -6,7 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/aioz",
         "https://rpc-dataseed.aioz.network:443",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/aioz",
+        "https://lcd-dataseed.aioz.network",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://eth-dataseed.aioz.network",
       ],
     },
   },

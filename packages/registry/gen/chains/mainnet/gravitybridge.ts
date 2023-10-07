@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/gravitybridge",
         "https://gravitychain.io:26657",
         "http://gravity-bridge-1-08.nodes.amhost.net:26657",
         "https://gravity-rpc.polkachu.com",
@@ -20,6 +21,24 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/gravitybridge",
+        "https://gravitychain.io:1317",
+        "https://api-gravitybridge-ia.cosmosia.notional.ventures/",
+        "https://gravity-api.polkachu.com",
+        "https://gravitybridge-api.lavenderfive.com/",
+        "https://api.gravity.bh.rocks/",
+        "https://gravity-api.ibs.team",
+        "https://gravity-api.ramuchi.tech",
+        "https://api-gravity-bridge-01.stakeflow.io",
+        "https://gravity-rest.staketab.org",
+        "https://gravity-api.w3coins.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       agoric: {

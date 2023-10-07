@@ -6,9 +6,19 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/mayachain",
         "https://tendermint.mayachain.info",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/mayachain",
+        "https://mayanode.mayachain.info",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

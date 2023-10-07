@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/bandchain",
         "http://rpc.laozi1.bandchain.org:80",
         "https://rpc-bandchain-ia.cosmosia.notional.ventures/",
         "https://band-rpc.ibs.team/",
@@ -18,6 +19,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/bandchain",
+        "https://laozi1.bandchain.org/api",
+        "https://api-bandchain-ia.cosmosia.notional.ventures/",
+        "https://band-api.ibs.team/",
+        "https://api-band.cosmos-spaces.cloud",
+        "https://bandchain-mainnet-lcd.autostake.com:443",
+        "https://api-band-01.stakeflow.io",
+        "https://band-api.w3coins.io",
+        "https://bandprotocol-api.highstakes.ch:1317/",
+        "https://api.band.indonode.net",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       comdex: {

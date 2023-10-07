@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/chain4energy",
         "https://rpc.c4e.io/",
         "https://rpc.c4e.nodestake.top",
         "https://m-c4e.rpc.utsa.tech",
@@ -38,5 +39,37 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/chain4energy",
+        "https://lcd.c4e.io/",
+        "https://api.c4e.nodestake.top",
+        "https://m-c4e.api.utsa.tech",
+        "https://chain4energy-mainnet-lcd.autostake.com:443",
+        "https://c4e.api.m.stavr.tech",
+        "https://c4e.api.bccnodes.com",
+        "https://api-m.c4e.hexnodes.co",
+        "https://api-c4e.takeshi.team",
+        "https://api-c4e.mzonder.com",
+        "https://rest.cros-nest.com/chain4energy",
+        "https://api.c4e.indonode.net",
+        "https://c4e-api.stake-town.com",
+        "https://api.c4e.silentvalidator.com",
+        "http://api.c4e.stakeup.tech",
+        "http://chain4energy-rpc.stakeangle.com:1317",
+        "https://c4e-api.genznodes.dev",
+        "https://api-c4e.theamsolutions.info",
+        "https://c4e.api.m.anode.team",
+        "https://c4e-api.validatrium.club",
+        "http://c4e.api.node75.org:1397",
+        "https://lcd-c4e.stakerun.com:443",
+        "http://164.68.125.243:1319",
+        "https://c4e-rest.antrixy.org/",
+        "https://c4e.doubletop.tech/api",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

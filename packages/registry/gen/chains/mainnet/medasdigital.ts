@@ -6,10 +6,20 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/medasdigital",
         "https://rpc.medas-digital.io:26657/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/medasdigital",
+        "https://lcd.medas-digital.io:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/arkh",
         "https://asc-dataseed.arkhadian.com/",
         "https://rpc.arkh.nodestake.top",
         "https://rpc-arkhadian.comunitynode.my.id",
@@ -14,6 +15,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/arkh",
+        "https://asc-blockchain-api.arkhadian.com/",
+        "https://api.arkh.nodestake.top",
+        "https://api-arkhadian.comunitynode.my.id",
+        "https://arkh-api.kynraze.com",
+        "https://rest.arkh.nodexcapital.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

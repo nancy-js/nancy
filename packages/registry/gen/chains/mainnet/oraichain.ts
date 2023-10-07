@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/oraichain",
         "https://rpc.orai.io",
         "http://64.225.53.108:26657",
         "https://rpc-oraichain.vchain.zone",
@@ -14,6 +15,19 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/oraichain",
+        "http://lcd.orai.io",
+        "http://64.225.53.108:1317",
+        "https://rest-oraichain.vchain.zone",
+        "https://api-orai.nodine.id",
+        "https://api-oraichain.mms.team",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

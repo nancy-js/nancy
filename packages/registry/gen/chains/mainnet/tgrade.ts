@@ -6,11 +6,22 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/tgrade",
         "https://rpc.mainnet-1.tgrade.confio.run",
         "https://rpc.tgrade.posthuman.digital",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/tgrade",
+        "https://api.mainnet-1.tgrade.confio.run",
+        "https://lcd.tgrade.posthuman.digital",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

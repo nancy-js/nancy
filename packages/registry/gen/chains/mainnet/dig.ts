@@ -6,11 +6,22 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/dig",
         "https://rpc-1-dig.notional.ventures",
         "https://rpc-dig-ia.cosmosia.notional.ventures/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/dig",
+        "https://api-1-dig.notional.ventures",
+        "https://api-dig-ia.cosmosia.notional.ventures/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       juno: {

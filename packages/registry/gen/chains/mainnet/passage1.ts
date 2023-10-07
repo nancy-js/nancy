@@ -3,8 +3,8 @@
  */
 export default {
   name: "passage1",
-  tendermint: {
-    api: {},
-  },
+  tendermint: null,
+  cosmossdk: null,
+  evm: null,
   ibc: {},
 } as const;

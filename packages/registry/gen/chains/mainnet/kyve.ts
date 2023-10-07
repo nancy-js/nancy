@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/kyve",
         "https://rpc-eu-1.kyve.network",
         "https://rpc-kyve.ecostake.com",
         "https://kyve-rpc.lavenderfive.com:443",
@@ -20,6 +21,25 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/kyve",
+        "https://api-eu-1.kyve.network",
+        "https://kyve-api.lavenderfive.com:443",
+        "https://rest-kyve.ecostake.com",
+        "https://lcd-kyve.imperator.co",
+        "https://kyve-api.ibs.team",
+        "https://api.kyve.nodestake.top",
+        "https://api-kyve.cosmos-spaces.cloud",
+        "https://www.kyve-lcd.enigma-validator.com",
+        "https://kyve.api.liveraven.net",
+        "https://api.kyve.stake-take.com",
+        "https://api-kyve.mms.team",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       axelar: {

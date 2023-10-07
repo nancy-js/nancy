@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/konstellation",
         "https://node1.konstellation.tech:26657",
         "https://konstellation-rpc.polkachu.com",
         "https://rpc-konstellation-ia.cosmosia.notional.ventures/",
@@ -14,6 +15,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/konstellation",
+        "https://node1.konstellation.tech:1318",
+        "https://api-konstellation-ia.cosmosia.notional.ventures/",
+        "https://konstellation-api.polkachu.com",
+        "https://api-konstellation.starsquid.io",
+        "https://konstellation-mainnet-lcd.autostake.com:443",
+        "https://konstellation-rest.stakerhouse.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

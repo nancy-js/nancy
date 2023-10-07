@@ -6,8 +6,27 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/xpla",
         "https://dimension-rpc.xpla.dev",
         "https://xpla-rpc.lavenderfive.com:443",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/xpla",
+        "https://dimension-lcd.xpla.io",
+        "https://dimension-lcd.xpla.dev",
+        "http://xpla.api.staking-explorer.com",
+        "https://xpla-api.lavenderfive.com:443",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://dimension-evm-rpc.xpla.dev",
       ],
     },
   },

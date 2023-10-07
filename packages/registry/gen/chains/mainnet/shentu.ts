@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/shentu",
         "https://shenturpc.noopsbycertik.com/",
         "https://certik-rpc.polkachu.com",
         "https://shentu-rpc.ramuchi.tech",
@@ -17,6 +18,22 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/shentu",
+        "https://rest.noopsbycertik.com/",
+        "https://certik-api.polkachu.com",
+        "https://shentu-api.ramuchi.tech",
+        "https://api-shentu-01.stakeflow.io",
+        "https://shentu-api.tienthuattoan.ventures",
+        "https://shentu-rest.publicnode.com",
+        "https://shentu-api.highstakes.ch:1317/",
+        "https://shentu-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

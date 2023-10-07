@@ -6,11 +6,22 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/unification",
         "https://rpc1.unification.io:443",
         "https://rpc.unification.chainmasters.ninja/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/unification",
+        "https://rest.unification.io",
+        "https://rest.unification.chainmasters.ninja/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

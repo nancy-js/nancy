@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/carbon",
         "https://tm-api.carbon.network",
         "https://carbon-rpc.lavenderfive.com",
         "https://rpc.carbon.blockhunters.org",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/carbon",
+        "https://api.carbon.network",
+        "https://carbon-api.lavenderfive.com",
+        "https://rest.carbon.blockhunters.org",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       stride: {

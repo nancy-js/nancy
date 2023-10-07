@@ -6,10 +6,20 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/onomy",
         "https://rpc-mainnet.onomy.io",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/onomy",
+        "https://rest-mainnet.onomy.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

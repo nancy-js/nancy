@@ -6,9 +6,28 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cronos",
         "https://rpc.cronos.org/",
         "https://rpc-cronos.cosmos-spaces.cloud",
         "https://cronos-rpc.publicnode.com",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cronos",
+        "https://rest.cronos.org/",
+        "https://api-cronos.cosmos-spaces.cloud",
+        "https://cronos-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://evm.cronos.org/",
+        "https://cronos-evm.publicnode.com",
       ],
     },
   },

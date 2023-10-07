@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/kava",
         "https://rpc.data.kava.io",
         "https://kava-rpc.polkachu.com",
         "https://rpc-kava-ia.cosmosia.notional.ventures/",
@@ -13,6 +14,29 @@ export default {
         "https://kava-rpc.ibs.team",
         "https://rpc-kava-01.stakeflow.io",
         "https://kava-rpc.publicnode.com",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/kava",
+        "https://api.data.kava.io/",
+        "https://api-kava-ia.cosmosia.notional.ventures/",
+        "https://kava-api.polkachu.com",
+        "https://kava-mainnet-lcd.autostake.com:443",
+        "https://kava-api.ibs.team",
+        "https://api-kava-01.stakeflow.io",
+        "https://kava-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://evm.kava.io/",
+        "https://kava-evm.publicnode.com",
+        "https://kava.api.onfinality.io/public",
       ],
     },
   },

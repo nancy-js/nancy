@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/archway",
         "https://rpc-archway.cosmos-spaces.cloud",
         "https://rpc.mainnet.archway.io",
         "https://m-archway.rpc.utsa.tech",
@@ -28,6 +29,33 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/archway",
+        "https://api.mainnet.archway.io",
+        "https://archway-api.w3coins.io",
+        "https://m-archway.api.utsa.tech",
+        "https://api-1.archway.nodes.guru",
+        "https://archway.api.silknodes.io/",
+        "https://archway.api.kjnodes.com",
+        "https://api-archway.cosmos-spaces.cloud",
+        "https://api-archway.cryptech.com.ua",
+        "https://archway-mainnet-lcd.autostake.com:443",
+        "https://api.archway.nodestake.top",
+        "https://rest-archway.theamsolutions.info",
+        "https://lcd-archway.whispernode.com:443",
+        "https://api.archway.stake-take.com",
+        "https://m-archway.api.utsa.tech",
+        "https://archway-api.lavenderfive.com:443",
+        "https://api-archway.mms.team",
+        "https://api-archway.mzonder.com",
+        "https://rest.archway.lgns.net",
+        "https://archway-api.stake-town.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       juno: {

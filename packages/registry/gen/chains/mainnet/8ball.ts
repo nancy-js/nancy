@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/8ball",
         "https://rpc.8ball.info/",
         "https://rpc.8ball.nodestake.top",
         "https://8ball-rpc.genznodes.dev/",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/8ball",
+        "https://rest.8ball.info",
+        "https://api.8ball.nodestake.top",
+        "https://8ball-api.genznodes.dev/",
+        "https://api-8ball.comunitynode.my.id",
+        "https://api-8ball.nodine.id/",
+        "https://rest.8ball.nodexcapital.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

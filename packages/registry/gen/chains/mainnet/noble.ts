@@ -6,10 +6,20 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/noble",
         "https://noble-rpc.polkachu.com",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/noble",
+        "https://noble-api.polkachu.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       stargaze: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/bluzelle",
         "https://a.client.sentry.net.bluzelle.com:26657",
         "https://b.client.sentry.net.bluzelle.com:26657",
         "https://c.client.sentry.net.bluzelle.com:26657",
@@ -14,6 +15,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/bluzelle",
+        "https://a.client.sentry.net.bluzelle.com:1317",
+        "https://b.client.sentry.net.bluzelle.com:1317",
+        "https://c.client.sentry.net.bluzelle.com:1317",
+        "https://bluzelle-api.genznodes.dev/",
+        "https://api-bluzelle.nodeist.net",
+        "https://api-curium.nodine.id",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

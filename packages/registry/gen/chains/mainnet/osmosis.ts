@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/osmosis",
         "https://rpc.osmosis.zone/",
         "https://rpc-osmosis.blockapsis.com",
         "https://osmosis-rpc.onivalidator.com",
@@ -34,6 +35,36 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/osmosis",
+        "https://lcd.osmosis.zone/",
+        "https://osmosis-lcd.quickapi.com:443",
+        "https://lcd-osmosis.blockapsis.com",
+        "https://osmosis-api.lavenderfive.com:443",
+        "https://rest-osmosis.ecostake.com",
+        "https://api-osmosis-ia.cosmosia.notional.ventures",
+        "https://api.osmosis.interbloc.org",
+        "https://api-osmosis.cosmos-spaces.cloud",
+        "https://osmosis-api.polkachu.com",
+        "https://osmosis.rest.stakin-nodes.com",
+        "https://api.osl.zone",
+        "https://osmosis-mainnet-lcd.autostake.com:443",
+        "https://osmosis.rest.interchain.ivaldilabs.xyz",
+        "https://osmosis.api.kjnodes.com",
+        "https://api-osmosis-01.stakeflow.io",
+        "https://osmosis-rest.staketab.org",
+        "https://osmosis-api.w3coins.io",
+        "https://lcd-osmosis.whispernode.com:443",
+        "https://api-osmosis.mms.team",
+        "https://osmosis-rest.publicnode.com",
+        "https://community.nuxian-node.ch:6797/osmosis/crpc",
+        "https://osmosis-api.stake-town.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       medasdigital: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/bitsong",
         "https://rpc-bitsong-ia.cosmosia.notional.ventures/",
         "https://rpc.explorebitsong.com",
         "https://bitsong-rpc.validatrium.club",
@@ -19,6 +20,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/bitsong",
+        "https://api-bitsong-ia.cosmosia.notional.ventures/",
+        "https://lcd.explorebitsong.com/",
+        "https://bitsong-api.validatrium.club",
+        "https://api.bitsong.quokkastake.io",
+        "https://bitsong-api.lavenderfive.com/",
+        "https://api-bitsong.starsquid.io",
+        "https://rest-bitsong.architectnodes.com",
+        "https://api.bitsong.safeblock.space",
+        "https://bitsong-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

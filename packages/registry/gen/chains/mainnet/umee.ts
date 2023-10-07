@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/umee",
         "https://umee-rpc.polkachu.com",
         "https://rpc-umee-ia.cosmosia.notional.ventures/",
         "https://umee-mainnet-rpc.autostake.com:443",
@@ -25,6 +26,30 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/umee",
+        "https://api.mainnet.network.umee.cc",
+        "https://api-umee-ia.cosmosia.notional.ventures/",
+        "https://umee.api.m.stavr.tech",
+        "https://api-umee.cosmos-spaces.cloud",
+        "https://umee-mainnet-lcd.autostake.com:443",
+        "https://umee-api.polkachu.com",
+        "https://umee-lcd.quantnode.tech",
+        "https://umee-api.tienthuattoan.ventures",
+        "https://api-umee-01.stakeflow.io",
+        "https://umee-rest.staketab.org",
+        "https://api.umee.stake-take.com",
+        "https://umee-api.theamsolutions.info",
+        "https://umee.api.kjnodes.com",
+        "https://umee-api.w3coins.io",
+        "https://api-umee.mms.team",
+        "https://api-umee.mzonder.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       crescent: {

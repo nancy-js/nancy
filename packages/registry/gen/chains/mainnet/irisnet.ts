@@ -6,12 +6,33 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/irisnet",
         "https://rpc-iris.keplr.app",
         "https://rpc-irisnet-ia.cosmosia.notional.ventures/",
         "https://rpc-irisnet-01.stakeflow.io",
         "https://irisnet-rpc.w3coins.io",
         "https://iris-rpc.publicnode.com",
         "https://iris-rpc.highstakes.ch:26657/",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/irisnet",
+        "https://lcd-iris.keplr.app",
+        "https://api-irisnet-ia.cosmosia.notional.ventures/",
+        "https://api-irisnet-01.stakeflow.io",
+        "https://irisnet-api.w3coins.io",
+        "https://iris-rest.publicnode.com",
+        "https://iris-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://iris-evm.publicnode.com",
       ],
     },
   },

@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/bostrom",
         "https://rpc.bostrom.cybernode.ai",
         "https://rpc.cyber.posthuman.digital",
         "https://rpc-cyber-ia.cosmosia.notional.ventures/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/bostrom",
+        "https://lcd.bostrom.cybernode.ai",
+        "https://lcd.cyber.posthuman.digital",
+        "https://api-cyber-ia.cosmosia.notional.ventures/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

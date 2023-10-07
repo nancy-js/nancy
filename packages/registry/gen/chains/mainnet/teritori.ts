@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/teritori",
         "https://teritori-rpc.lavenderfive.com:443",
         "https://teritori-rpc.polkachu.com",
         "https://rpc.teritori.nodestake.top",
@@ -29,6 +30,33 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/teritori",
+        "https://teritori-api.lavenderfive.com:443",
+        "https://teritori-api.polkachu.com",
+        "https://api.teritori.nodestake.top",
+        "https://teritori.api.m.stavr.tech",
+        "https://api.teritori.silentvalidator.com/",
+        "https://teritori.nodejumper.io:1317",
+        "https://teritori-api.ibs.team",
+        "https://api-teritori.mms.team/",
+        "https://teritori.api.kjnodes.com",
+        "https://api.tori.bh.rocks",
+        "https://teritori-api.kleomedes.network",
+        "https://m-teritori.api.utsa.tech",
+        "https://teritori.api.silknodes.io",
+        "https://api-teritori.pupmos.network",
+        "https://lcd-teritori.whispernode.com:443",
+        "https://rest-teritori.carbonZERO.zone:443",
+        "https://teritori-mainnet-lcd.autostake.com:443",
+        "https://rest-teritori.ecostake.com",
+        "https://teritori-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

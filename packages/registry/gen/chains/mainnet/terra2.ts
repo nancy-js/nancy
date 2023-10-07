@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/terra2",
         "https://rpc.terrav2.ccvalidators.com:443/",
         "https://terra2-rpc.lavenderfive.com:443",
         "https://terra-rpc.polkachu.com",
@@ -20,6 +21,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/terra2",
+        "https://fcd.terrav2.ccvalidators.com:443/",
+        "https://lcd-terra.wildsage.io",
+        "https://terra-mainnet-lcd.autostake.com:443",
+        "https://lcd-terra2.whispernode.com:443",
+        "https://phoenix-lcd.terra.dev:443",
+        "https://terra-rest.publicnode.com",
+        "terra2-api.lavenderfive.com:443",
+        "https://api-terra-01.stakeflow.io",
+        "https://terra-phoenix-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       neutron: {

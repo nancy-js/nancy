@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/bitcanna",
         "https://rpc.bitcanna.io/",
         "http://bcna.paranorm.pro/",
         "https://bcna-rpc.ibs.team/",
@@ -33,6 +34,36 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/bitcanna",
+        "https://lcd.bitcanna.io",
+        "https://bitcanna-api.panthea.eu",
+        "https://api.bitcanna.sgtstake.com/",
+        "https://bitcanna.api.m.stavr.tech",
+        "https://bcna-api.ibs.team/",
+        "https://bitcanna.api.m.anode.team",
+        "https://api-bcna.kjinc.io/",
+        "https://mainnet-bitcanna-api.konsortech.xyz",
+        "https://bitcanna.api.kjnodes.com",
+        "https://bitcanna-api.lavenderfive.com/",
+        "https://bitcanna-api.genznodes.dev",
+        "https://api.bitcanna-1.bitcanna.aviaone.com/",
+        "https://lcd.bitcanna.hexnodes.co",
+        "https://bitcanna-mainnet.api.l0vd.com",
+        "https://api-bitcanna-ia.cosmosia.notional.ventures",
+        "https://bitcanna-api.polkachu.com",
+        "https://api.bitcanna.safeblock.space",
+        "https://bitcanna.nodejumper.io:1317",
+        "https://api-bitcanna.mms.team:443",
+        "http://65.108.142.81:1325",
+        "http://93.115.25.15:1317",
+        "https://bitcanna-api.validatornode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       bitsong: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/meme",
         "https://rpc-meme-1.meme.sx/",
         "https://meme-rpc.polkachu.com/",
         "https://rpc-meme.pupmos.network/",
@@ -15,6 +16,20 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/meme",
+        "https://api-meme-1.meme.sx/",
+        "https://meme-api.polkachu.com/",
+        "https://api-meme.pupmos.network/",
+        "https://meme-api.kleomedes.network",
+        "https://meme.api.m.anode.team",
+        "https://api.meme.stake-take.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

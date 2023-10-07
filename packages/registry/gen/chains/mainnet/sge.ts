@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/sge",
         "https://sge-rpc.lavenderfive.com/",
         "https://sge-rpc.polkachu.com/",
         "https://rpc.sge.nodestake.top/",
@@ -14,5 +15,18 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/sge",
+        "https://sge-api.lavenderfive.com/",
+        "https://sge-api.polkachu.com/",
+        "https://api.sge.nodestake.top/",
+        "https://api-sge.nodeist.net/",
+        "https://sge-api.ramuchi.tech/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

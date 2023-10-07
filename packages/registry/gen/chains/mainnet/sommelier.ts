@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/sommelier",
         "https://sommelier-rpc.polkachu.com",
         "https://rpc-sommelier.pupmos.network",
         "https://sommelier-rpc.lavenderfive.com/",
@@ -17,6 +18,22 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/sommelier",
+        "https://api-sommelier.pupmos.network",
+        "https://sommelier-api.polkachu.com",
+        "https://sommelier-api.lavenderfive.com/",
+        "https://api-sommelier.cosmos-spaces.cloud",
+        "https://sommelier-mainnet-lcd.autostake.com:443",
+        "https://rest.sommelier.nodexcapital.com",
+        "https://somm-api.kleomedes.network",
+        "https://sommelier-api.w3coins.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       stride: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/stafihub",
         "https://public-rpc1.stafihub.io:443",
         "https://public-rpc2.stafihub.io:443",
         "https://rpc.stafihub.nodestake.top:443",
@@ -13,6 +14,18 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/stafihub",
+        "https://public-rest-rpc1.stafihub.io",
+        "https://public-rest-rpc2.stafihub.io",
+        "https://api.stafihub.nodestake.top",
+        "https://stafihub.nodejumper.io:1317",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       kujira: {

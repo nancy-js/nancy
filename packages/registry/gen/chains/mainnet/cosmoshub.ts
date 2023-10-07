@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/cosmoshub",
         "https://rpc-cosmoshub.blockapsis.com",
         "https://cosmos-rpc.quickapi.com:443",
         "https://cosmos-rpc.onivalidator.com",
@@ -44,6 +45,42 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/cosmoshub",
+        "https://lcd-cosmoshub.blockapsis.com",
+        "https://cosmos-lcd.quickapi.com:443",
+        "https://rest-cosmoshub.goldenratiostaking.net",
+        "https://cosmoshub-api.lavenderfive.com:443",
+        "https://api-cosmoshub.pupmos.network",
+        "https://api-cosmoshub.cosmos-spaces.cloud",
+        "https://api-cosmoshub-ia.cosmosia.notional.ventures/",
+        "https://cosmos-rest.staketab.org",
+        "https://api.cosmos.interbloc.org",
+        "https://lcd.cosmos.dragonstake.io",
+        "https://cosmoshub.rest.stakin-nodes.com",
+        "https://rest-cosmoshub.architectnodes.com",
+        "https://rest-cosmoshub.ecostake.com",
+        "https://cosmoshub.rest.interchain.ivaldilabs.xyz",
+        "https://lcd-cosmoshub.whispernode.com:443",
+        "https://cosmos-lcd.easy2stake.com",
+        "https://api.cosmos.nodestake.top",
+        "https://cosmos.api.silknodes.io",
+        "https://cosmos-rest.publicnode.com",
+        "https://cosmoshub.api.kjnodes.com",
+        "https://api-cosmos-hub-01.stakeflow.io",
+        "https://cosmos-api.w3coins.io",
+        "https://api-cosmoshub.mms.team",
+        "https://cosmos-api.tienthuattoan.ventures",
+        "https://community.nuxian-node.ch:6797/gaia/crpc",
+        "https://cosmos-api.highstakes.ch:1317/",
+        "https://cosmoshub-mainnet.api.l0vd.com",
+        "https://cosmoshub-4-archive.api.l0vd.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       bitsong: {

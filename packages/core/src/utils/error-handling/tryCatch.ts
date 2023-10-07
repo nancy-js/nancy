@@ -1,56 +1,28 @@
+import { Result, fail, ok } from "../effects/result.js";
 import { ensureError } from "./ensureError.js";
-import { Result } from "./makeResult.js";
 
-export function tryCatch<
-  TResult extends
-    Promise<any>,
+export const tryCatch = <
+  TOk extends {},
+  TErr extends Error,
 >(
-  fn: () => TResult,
-): Promise<
-  Result<
-    Awaited<TResult>,
-    Error
-  >
->;
-export function tryCatch<
-  TResult,
->(
-  fn: () => TResult,
-): Result<TResult, Error>;
-export function tryCatch<
-  TResult,
->(fn: () => TResult) {
+  fn: () => TOk,
+): Result<TErr, TOk> => {
   try {
-    const result = fn();
-    if (
-      result instanceof
-      Promise
-    ) {
-      return result
-        .then(
-          (result) =>
-            [
-              undefined,
-              result,
-            ] as const,
-        )
-        .catch((error) => {
-          return [
-            ensureError(
-              error,
-            ),
-            undefined,
-          ] as const;
-        });
-    }
-    return [
-      undefined,
-      fn(),
-    ] as const;
+    return ok(fn());
   } catch (error) {
-    return [
-      ensureError(error),
-      undefined,
-    ] as const;
+    return fail(ensureError(error) as TErr);
   }
-}
+};
+
+export const tryCatchAsync = <
+  TOk extends {},
+  TErr extends Error,
+>(
+  fn: () => Promise<TOk>,
+): Promise<Result<TErr, TOk>> => {
+  return fn()
+    .then(ok)
+    .catch((error) =>
+      Promise.resolve(fail(ensureError(error) as TErr)),
+    );
+};

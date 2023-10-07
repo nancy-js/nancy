@@ -6,9 +6,19 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/chimba",
         "https://rpc.mainnet.chimbablockchain.io",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/chimba",
+        "https://mainnet.chimbablockchain.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

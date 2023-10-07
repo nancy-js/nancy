@@ -6,9 +6,19 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/chronicnetwork",
         "https://rpc-chronic.zenchainlabs.io/",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/chronicnetwork",
+        "https://api-chronic.zenchainlabs.io/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

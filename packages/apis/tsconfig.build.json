@@ -5,15 +5,12 @@
     "noEmit": false,
     "declaration": true,
     "emitDeclarationOnly": false,
+    "target": "ESNext",
     "sourceMap": true,
     "declarationMap": true,
     "isolatedModules": false,
     "rootDir": "./src"
   },
-  "include": [
-    "./src/index.ts"
-  ],
-  "exclude": [
-    "./**/*.test.ts"
-  ]
+  "include": ["./src/index.ts"],
+  "exclude": ["./**/*.test.ts"]
 }

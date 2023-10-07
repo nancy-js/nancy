@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/comdex",
         "https://rpc.comdex.one",
         "https://comdex-rpc.polkachu.com",
         "https://rpc.comdex.chaintools.tech/",
@@ -23,6 +24,27 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/comdex",
+        "https://rest.comdex.one",
+        "https://api.comdex.chaintools.tech/",
+        "https://comdex-api.polkachu.com",
+        "https://comdex-api.lavenderfive.com/",
+        "https://api-comdex.cosmos-spaces.cloud",
+        "https://comdex-mainnet-lcd.autostake.com:443",
+        "https://lcd-comdex.whispernode.com:443",
+        "https://rest-comdex.carbonZERO.zone:443",
+        "https://comdex-api.w3coins.io",
+        "https://comdex-rest.stakerhouse.com",
+        "https://comdex-rest.publicnode.com",
+        "https://api-comdex-01.stakeflow.io",
+        "https://comdex-api.validatornode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/mars",
         "https://rpc.marsprotocol.io:443",
         "https://mars-rpc.lavenderfive.com:443",
         "https://mars-mainnet-rpc.autostake.com:443",
@@ -22,6 +23,26 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/mars",
+        "https://rest.marsprotocol.io:443",
+        "https://mars-api.lavenderfive.com:443",
+        "https://mars-mainnet-lcd.autostake.com:443",
+        "https://mars-api.polkachu.com",
+        "https://lcd-mars.whispernode.com:443",
+        "https://lcd.expedition-mars.com:443",
+        "https://mars-api.genznodes.dev:443",
+        "https://rest-mars.carbonZERO.zone:443",
+        "https://mars-api.stakeandrelax.net",
+        "https://mars.api.kjnodes.com",
+        "https://api.mars.nodestake.top",
+        "https://mars-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       neutron: {

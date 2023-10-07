@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/nyx",
         "https://rpc.nyx.nodes.guru/",
         "https://nym.vladiatorlabs.io/",
         "https://rpc.nym.forbole.com/",
@@ -15,5 +16,14 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/nyx",
+        "https://nym-api.polkachu.com/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/persistence",
         "https://rpc.core.persistence.one",
         "https://rpc-persistent-ia.cosmosia.notional.ventures/",
         "https://persistence-rpc.polkachu.com",
@@ -26,6 +27,32 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/persistence",
+        "https://rest.core.persistence.one",
+        "https://api-persistent-ia.cosmosia.notional.ventures/",
+        "https://api-persistence.starsquid.io",
+        "https://persistence-api.polkachu.com",
+        "https://api-persistence.cosmos-spaces.cloud",
+        "https://persistence-api.kleomedes.network",
+        "https://rest-persistence.architectnodes.com",
+        "https://persistence-mainnet-lcd.autostake.com:443",
+        "https://persistence-mainnet-rest.cosmonautstakes.com",
+        "https://persistence-lcd.quantnode.tech",
+        "https://persistence-rest.zenscape.one",
+        "https://persistence-api.stakeandrelax.net",
+        "https://rest.persistence.posthuman.digital:443",
+        "http://141.95.33.97:1317",
+        "https://api-persistence-01.stakeflow.io",
+        "https://persistence-api.w3coins.io",
+        "https://persistence-rest.publicnode.com",
+        "https://persistence-api.highstakes.ch:1317/",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       irisnet: {

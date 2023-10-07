@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/aura",
         "https://rpc.aura.network/",
         "https://auranetwork-mainnet-rpc.autostake.com:443",
         "https://m-aura.rpc.utsa.tech",
@@ -26,6 +27,31 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/aura",
+        "https://lcd.aura.network/",
+        "https://auranetwork-mainnet-lcd.autostake.com:443",
+        "https://m-aura.api.utsa.tech",
+        "https://aura.api.m.stavr.tech",
+        "https://api.aura.nodestake.top",
+        "https://lcd-aura.whispernode.com:443",
+        "https://aura-api.ramuchi.tech",
+        "https://aura.api.kjnodes.com",
+        "https://mainnet-aura-api.konsortech.xyz",
+        "https://aura-api.tienthuattoan.ventures",
+        "https://aura-api.lavenderfive.com",
+        "https://aura-rest.staketab.org",
+        "https://api.aura.safeblock.space",
+        "https://api.aura.stake-take.com",
+        "https://api.aura.silentvalidator.com",
+        "https://aura-api.sergo.dev",
+        "https://api-aura.mms.team",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cosmoshub: {

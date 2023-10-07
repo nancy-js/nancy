@@ -5,8 +5,18 @@ export default {
   name: "octa",
   tendermint: {
     api: {
-      "jsonrpc-http": [],
+      "jsonrpc-http": [
+        "https://rpc.cosmos.directory/octa",
+      ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/octa",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

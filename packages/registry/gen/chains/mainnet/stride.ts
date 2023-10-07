@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/stride",
         "https://stride.rpc.bccnodes.com:443",
         "https://stride-rpc.polkachu.com/",
         "https://stride-rpc.onivalidator.com",
@@ -32,6 +33,36 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/stride",
+        "https://stride.api.bccnodes.com:443",
+        "https://stride-api.polkachu.com/",
+        "https://stride.api.chandrastation.com",
+        "http://api-stride.nodeist.net",
+        "https://api-stride.cosmos-spaces.cloud",
+        "https://stride.api.m.stavr.tech",
+        "https://stride-api.lavenderfive.com/",
+        "https://api.stride.silentvalidator.com/",
+        "https://stride.api.kjnodes.com",
+        "https://api-stride.pupmos.network",
+        "https://stride.nodejumper.io:1317",
+        "https://stride-mainnet-lcd.autostake.com:443",
+        "https://rest-stride.architectnodes.com",
+        "https://lcd-stride.whispernode.com:443",
+        "https://rest-stride.carbonZERO.zone:443",
+        "https://stride-api.stakeandrelax.net",
+        "https://stride.rest.interchain.ivaldilabs.xyz",
+        "https://api-stride-01.stakeflow.io",
+        "https://api.stride.stake-take.com",
+        "https://stride-api.w3coins.io",
+        "https://stride-rest.publicnode.com",
+        "https://community.nuxian-node.ch:6797/stride/crpc",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       carbon: {

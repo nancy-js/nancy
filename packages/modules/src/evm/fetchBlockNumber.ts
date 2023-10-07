@@ -3,6 +3,7 @@ import {
   makeUnwrapablePromise,
   makeError,
   tryCatch,
+  R,
 } from "@nancy/core";
 
 export const fetchBlockNumber = (evmClient: EVMClient) =>
@@ -15,21 +16,17 @@ export const fetchBlockNumber = (evmClient: EVMClient) =>
     );
 
     if (error) {
-      return [
-        makeError(
-          "FailedToFetch",
-          "Could not fetch block number",
-          { cause: error },
-        ),
-        undefined,
-      ] as const;
+      R.failWith(
+        "FailedToFetch",
+        "Could not fetch block number",
+        { cause: error },
+      );
     }
 
     if (!block || !block.result?.number) {
-      return [
+      return R.fail(
         makeError("BlockNotFound", "Could not find block"),
-        undefined,
-      ] as const;
+      );
     }
 
     const blockNumber = block.result.number;
@@ -39,17 +36,14 @@ export const fetchBlockNumber = (evmClient: EVMClient) =>
     );
 
     if (parseError) {
-      return [
-        makeError(
-          "FailedToParse",
-          "Could not parse block number",
-          {
-            cause: parseError,
-          },
-        ),
-        undefined,
-      ] as const;
+      return R.failWith(
+        "FailedToParse",
+        "Could not parse block number",
+        {
+          cause: parseError,
+        },
+      );
     }
 
-    return [undefined, parsedBlockNumber] as const;
+    return R.ok(parsedBlockNumber);
   });

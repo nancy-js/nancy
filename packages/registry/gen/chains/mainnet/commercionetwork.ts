@@ -6,9 +6,19 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/commercionetwork",
         "https://rpc-mainnet.commercio.network",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/commercionetwork",
+        "https://lcd-mainnet.commercio.network",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/migaloo",
         "https://migaloo-rpc.lavenderfive.com",
         "https://whitewhale-mainnet-rpc.autostake.com:443",
         "https://rpc-whitewhale.carbonzero.zone:443",
@@ -18,6 +19,23 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/migaloo",
+        "https://migaloo-api.lavenderfive.com",
+        "https://whitewhale-mainnet-lcd.autostake.com:443",
+        "https://rest-whitewhale.carbonzero.zone:443",
+        "https://lcd-whitewhale.whispernode.com:443",
+        "https://api-migaloo.cosmos-spaces.cloud",
+        "https://migaloo-api.kleomedes.network:443",
+        "https://api.whitewhale.nodestake.top",
+        "https://migaloo.api.kjnodes.com",
+        "https://migaloo-api.cosmosrescue.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       kujira: {

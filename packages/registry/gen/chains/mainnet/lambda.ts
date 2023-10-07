@@ -6,10 +6,29 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/lambda",
         "https://rpc.lambda.im",
         "https://rpc-lambda.d-stake.xyz",
         "http://lambda.rpc.m.stavr.tech:31327",
         "https://rpc.lambda.nodestake.top",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/lambda",
+        "https://rest.lambda.im",
+        "https://api-lambda.d-stake.xyz",
+        "https://lambda.api.m.stavr.tech",
+        "https://api.lambda.nodestake.top",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://jsonrpc-lambda.d-stake.xyz",
       ],
     },
   },

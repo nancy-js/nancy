@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/odin",
         "http://34.79.179.216:26657",
         "https://odin-rpc.lavenderfive.com/",
         "https://odin-mainnet-rpc.autostake.com:443",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/odin",
+        "http://34.79.179.216:1317/",
+        "https://odin-api.lavenderfive.com/",
+        "https://odin-mainnet-lcd.autostake.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       axelar: {

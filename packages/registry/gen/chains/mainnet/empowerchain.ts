@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/empowerchain",
         "https://rpc-empowerchain.ecostake.com:443",
         "https://empowerchain-mainnet-rpc.autostake.com:443",
         "https://empower.rpc.liveraven.net",
@@ -19,6 +20,24 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/empowerchain",
+        "https://rest-empowerchain.ecostake.com:443",
+        "https://empowerchain-mainnet-lcd.autostake.com:443",
+        "https://empower.api.liveraven.net",
+        "https://empower-api.w3coins.io",
+        "https://lcd-empower.whispernode.com:443",
+        "https://api-empowerchain.mzonder.com:443",
+        "https://api.empower.indonode.net:443",
+        "https://api-empower.vinjan.xyz:443",
+        "https://api.empower.nodestake.top",
+        "https://mainnet-empower-api.konsortech.xyz",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

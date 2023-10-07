@@ -6,7 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/imversed",
         "https://rpc.imversed.network:443",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/imversed",
+        "https://rest.imversed.network:443",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://jsonrpc.imversed.network:443",
       ],
     },
   },

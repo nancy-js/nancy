@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/neutron",
         "https://rpc-kralum.neutron-1.neutron.org",
         "https://rpc.novel.remedy.tm.p2p.org",
         "https://neutron-rpc.lavenderfive.com",
@@ -18,6 +19,22 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/neutron",
+        "https://rest-kralum.neutron-1.neutron.org",
+        "https://api.novel.remedy.tm.p2p.org",
+        "https://neutron-api.lavenderfive.com",
+        "https://lcd-neutron.whispernode.com",
+        "https://api-neutron.cosmos-spaces.cloud",
+        "http://api.neutron.nodestake.top",
+        "https://neutron-rest.publicnode.com",
+        "https://community.nuxian-node.ch:6797/neutron/crpc",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       sei: {

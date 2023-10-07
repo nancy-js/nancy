@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/rebus",
         "https://api.rebuschain.com:26657/",
         "https://rebus.rpc.bccnodes.com:443",
         "https://rebus.rpc.manticore.team:443/",
@@ -26,6 +27,29 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/rebus",
+        "https://api.rebuschain.com:1317/",
+        "https://rebus.api.bccnodes.com:443",
+        "https://rebus.api.manticore.team:443/",
+        "https://api.rebus.nodestake.top/",
+        "https://rebus.api.m.stavr.tech",
+        "https://api-1.rebus.nodes.guru",
+        "https://api.mainnet.rebus.money:1317",
+        "https://api-rebus.d-stake.xyz",
+        "https://rebus-rest.brocha.in",
+        "https://rebus.nodejumper.io:1317",
+        "https://rebus-api.kleomedes.network",
+        "https://rebus-mainnet-lcd.autostake.com:443",
+        "https://rebus.api.liveraven.net",
+        "https://api.rebus.safeblock.space",
+        "https://rebus-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

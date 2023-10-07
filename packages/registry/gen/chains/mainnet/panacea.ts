@@ -6,11 +6,22 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/panacea",
         "https://rpc.gopanacea.org",
         "https://panacea-rpc.staketab.org:443",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/panacea",
+        "https://api.gopanacea.org",
+        "https://panacea-rest.staketab.org",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

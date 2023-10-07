@@ -1,7 +1,7 @@
-export function ensureError(
-  value: unknown,
-): Error {
-  if (value instanceof Error) return value;
+export function ensureError<T>(
+  value: T,
+): T extends Error ? T : Error {
+  if (value instanceof Error) return value as never;
 
   let stringified =
     "[Unable to stringify the thrown value]";
@@ -12,5 +12,5 @@ export function ensureError(
   const error = new Error(
     `This value was thrown as is, not through an Error: ${stringified}`,
   );
-  return error;
+  return error as never;
 }

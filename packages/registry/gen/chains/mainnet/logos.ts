@@ -6,7 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/logos",
         "https://logos-rpc.provable.dev:443/",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/logos",
+        "https://logos.provable.dev/rest/",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://logos-evm.provable.dev/",
       ],
     },
   },

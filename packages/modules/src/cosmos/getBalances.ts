@@ -3,6 +3,7 @@ import {
   makeError,
   makeUnwrapablePromise,
   tryCatch,
+  R,
 } from "@nancy/core";
 
 export const fetchBalances = (
@@ -32,7 +33,7 @@ export const fetchBalances = (
     );
 
     if (error) {
-      return [error, undefined] as const;
+      return R.fail(error);
     }
 
     const { balances = [], pagination } = response;
@@ -61,7 +62,7 @@ export const fetchBalances = (
     );
 
     if (parseError) {
-      return [
+      return R.fail(
         makeError(
           "FailedToParse",
           "Could not parse balances",
@@ -69,18 +70,13 @@ export const fetchBalances = (
             cause: parseError,
           },
         ),
-        undefined,
-      ] as const;
+      );
     }
-    return [
-      undefined,
-      {
-        balances: parsedBalances,
-        pagination: {
-          nextKey: pagination?.next_key ?? null,
-
-          total: pagination?.total,
-        },
+    return R.ok({
+      balances: parsedBalances,
+      pagination: {
+        nextKey: pagination?.next_key ?? null,
+        total: pagination?.total,
       },
-    ] as const;
+    });
   });

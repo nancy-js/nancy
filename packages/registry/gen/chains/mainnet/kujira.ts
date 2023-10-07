@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/kujira",
         "https://rpc-kujira.whispernode.com:443",
         "https://rpc.kaiyo.kujira.setten.io",
         "https://kujira-rpc.polkachu.com",
@@ -30,6 +31,32 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/kujira",
+        "https://lcd-kujira.whispernode.com:443",
+        "https://rest-kujira.goldenratiostaking.net",
+        "https://lcd.kaiyo.kujira.setten.io",
+        "https://kujira-api.lavenderfive.com:443",
+        "https://kujira-api.polkachu.com/",
+        "https://rest-kujira.ecostake.com",
+        "https://api-kujira-ia.cosmosia.notional.ventures/",
+        "https://kujira-lcd.wildsage.io/",
+        "https://kujira-api.ibs.team/",
+        "https://api-kujira.starsquid.io",
+        "https://kujira.api.kjnodes.com",
+        "https://kuji-api.kleomedes.network",
+        "https://kujira-mainnet-lcd.autostake.com:443",
+        "https://api.kujira.rektdao.club",
+        "https://kujira-api.theamsolutions.info",
+        "https://kujira-api.w3coins.io",
+        "https://api-kujira.mms.team",
+        "https://kujira-rest.publicnode.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       assetmantle: {

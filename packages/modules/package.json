@@ -10,8 +10,9 @@
     "build:types": "bun tsc -p ./tsconfig.build.json"
   },
   "devDependencies": {
-    "@nancy/apis": "workspace:../apis",
-    "@nancy/core": "workspace:../core",
+    "@nancy/apis": "workspace:*",
+    "@nancy/core": "workspace:*",
+    "@nancy/registry": "workspace:*",
     "bun-types": "latest"
   },
   "peerDependencies": {

@@ -6,12 +6,24 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/starname",
         "https://rpc-iov.keplr.app",
         "https://rpc-starname-ia.cosmosia.notional.ventures/",
         "https://starname.nodejumper.io",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/starname",
+        "https://lcd-iov.keplr.app",
+        "https://api-starname-ia.cosmosia.notional.ventures/",
+        "https://starname.nodejumper.io:1317",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       cryptoorgchain: {

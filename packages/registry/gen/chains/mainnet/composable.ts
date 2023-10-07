@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/composable",
         "https://rpc-composable-ia.cosmosia.notional.ventures",
         "https://rpc.composable.nodestake.top",
         "https://composable-mainnet-rpc.autostake.com:443",
@@ -19,6 +20,24 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/composable",
+        "https://api-composable-ia.cosmosia.notional.ventures",
+        "https://api.composable.nodestake.top",
+        "https://composable-mainnet-lcd.autostake.com:443",
+        "https://composable-api.cogwheel.zone:443",
+        "https://api-centauri.cosmos-spaces.cloud",
+        "https://composable-api.lavenderfive.com:443",
+        "https://composable-api.genznodes.dev",
+        "https://lcd-composable.whispernode.com:443",
+        "https://composable-api.stake-town.com",
+        "https://api-composable.vinjan.xyz:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

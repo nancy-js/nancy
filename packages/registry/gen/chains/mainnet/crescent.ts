@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/crescent",
         "https://mainnet.crescent.network:26657",
         "https://crescent-rpc.polkachu.com",
         "https://rpc-crescent.pupmos.network",
@@ -17,6 +18,22 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/crescent",
+        "https://mainnet.crescent.network:1317",
+        "https://api-crescent.pupmos.network",
+        "https://crescent-api.polkachu.com",
+        "https://crescent.rest.stakin-nodes.com",
+        "https://api-crescent.cosmos-spaces.cloud",
+        "https://crescent-mainnet-lcd.autostake.com:443",
+        "https://api-crescent-01.stakeflow.io",
+        "https://crescent-api.w3coins.io",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {

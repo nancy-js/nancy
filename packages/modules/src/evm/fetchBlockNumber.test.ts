@@ -1,25 +1,17 @@
-import {
-  describe,
-  test,
-  expect,
-} from "bun:test";
+import { describe, test, expect } from "bun:test";
 import { fetchBlockNumber } from "./fetchBlockNumber.ts";
-import { makeEVMClient } from "@nancy/apis";
+import { makeEVMApiClient } from "@nancy/apis";
 
 describe("evm/fetchBlockNumber", () => {
   test("should fetch block number", async () => {
-    const client =
-      makeEVMClient(
-        "https://eth.bd.evmos.org:8545",
-      );
+    const client = makeEVMApiClient(
+      "https://eth.bd.evmos.org:8545"
+    );
 
-    const blockNumber =
-      await fetchBlockNumber(
-        client,
-      ).unwrap();
+    const blockNumber = await fetchBlockNumber(
+      client
+    ).unwrap();
 
-    expect(
-      blockNumber,
-    ).toBeGreaterThan(0n);
+    expect(blockNumber).toBeGreaterThan(0n);
   });
 });

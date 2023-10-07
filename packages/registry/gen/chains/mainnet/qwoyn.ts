@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/qwoyn",
         "https://rpc.qwoyn.studio:443",
         "https://rpc-qwoyn.theamsolutions.info:443",
         "https://qwoyn-rpc.staketab.org:443",
@@ -15,5 +16,18 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/qwoyn",
+        "https://rest-qwoyn.theamsolutions.info:443",
+        "https://qwoyn-rest.staketab.org",
+        "https://qwoyn-rest-archive.staketab.org",
+        "https://qwoyn-api.lavenderfive.com",
+        "https://api-qwoyn.mzonder.com",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

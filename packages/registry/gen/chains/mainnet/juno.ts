@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/juno",
         "https://rpc-juno.whispernode.com:443",
         "https://rpc-juno.goldenratiostaking.net",
         "https://rpc-juno.itastakers.com",
@@ -38,6 +39,41 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/juno",
+        "https://lcd-juno.itastakers.com",
+        "https://rest-juno.ecostake.com",
+        "https://juno-api.lavenderfive.com:443",
+        "https://juno.api.m.stavr.tech",
+        "https://api-juno.pupmos.network",
+        "https://api-juno-ia.cosmosia.notional.ventures/",
+        "https://api.juno.chaintools.tech/",
+        "https://juno-api.polkachu.com",
+        "https://api-juno.cosmos-spaces.cloud",
+        "https://juno-api.kleomedes.network",
+        "https://api.juno.interbloc.org",
+        "https://juno.rest.stakin-nodes.com",
+        "https://api.juno.bh.rocks",
+        "https://juno.kingnodes.com",
+        "https://juno-api.reece.sh",
+        "https://juno-api.stakeandrelax.net",
+        "https://rest-juno.architectnodes.com",
+        "https://juno-mainnet-lcd.autostake.com:443",
+        "https://juno.rest.interchain.ivaldilabs.xyz",
+        "http://167.235.211.168:1317",
+        "https://juno.api.silknodes.io",
+        "https://rest-juno.goldenratiostaking.net",
+        "https://api-juno-01.stakeflow.io",
+        "https://lcd-juno.validavia.me",
+        "https://juno-api.w3coins.io",
+        "https://juno-rest.publicnode.com",
+        "https://juno-api.stake-town.com:443",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       archway: {

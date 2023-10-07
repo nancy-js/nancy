@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/canto",
         "https://rpc.canto.nodestake.top",
         "https://canto-rpc.polkachu.com",
         "https://rpc.canto.silentvalidator.com/",
@@ -14,6 +15,32 @@ export default {
         "https://rpc-canto.cosmos-spaces.cloud",
         "https://rpc-canto.carbonZERO.zone:443",
         "https://canto-mainnet-rpc.autostake.com:443",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/canto",
+        "https://api.canto.nodestake.top",
+        "https://canto-api.polkachu.com",
+        "https://api.canto.silentvalidator.com/",
+        "https://canto-rest.lgns.net:443",
+        "https://api-canto.cosmos-spaces.cloud",
+        "https://rest-canto.carbonZERO.zone:443",
+        "https://canto-mainnet-lcd.autostake.com:443",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://canto.neobase.one/",
+        "https://canto.evm.chandrastation.com",
+        "https://canto.slingshot.finance",
+        "https://jsonrpc.canto.nodestake.top",
+        "https://evm-rpc.canto.silentvalidator.com/",
+        "https://canto.gravitychain.io:8545",
       ],
     },
   },

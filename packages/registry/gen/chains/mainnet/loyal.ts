@@ -6,11 +6,23 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/loyal",
         "https://rpc-main.joinloyal.io/",
         "https://loyal-rpc.polkachu.com",
         "https://rpc.loyal.nodestake.top",
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/loyal",
+        "https://lcd-main.joinloyal.io/",
+        "https://loyal-api.polkachu.com",
+        "https://api.loyal.nodestake.top",
+      ],
+    },
+  },
+  evm: null,
   ibc: {},
 } as const;

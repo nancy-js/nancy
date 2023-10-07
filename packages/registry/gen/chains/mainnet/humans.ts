@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/humans",
         "https://rpc.humans.nodestake.top",
         "https://rpc.nodejumper.io/humans",
         "https://humans.rpc.kjnodes.com",
@@ -18,6 +19,35 @@ export default {
         "https://humans-rpc.anyvalid.com:26627",
         "https://mainnet-humans-rpc.konsortech.xyz",
         "https://rpc.humans-mainnet.stake-take.com/",
+      ],
+    },
+  },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/humans",
+        "https://api.humans.nodestake.top",
+        "https://rest.nodejumper.io/humans",
+        "https://humans.api.kjnodes.com",
+        "https://api-humans.nodeist.net",
+        "https://humans-mainnet-api.itrocket.net:443",
+        "https://humans-rest.staketab.org",
+        "https://api-humansai.thenop.io:443",
+        "http://humans-rpc.stakeangle.com:41417",
+        "https://rest.humans.stakepool.dev.br",
+        "https://mainnet-humans-api.konsortech.xyz",
+        "https://api.humans-mainnet.stake-take.com/",
+      ],
+    },
+  },
+  evm: {
+    api: {
+      "jsonrpc-http": [
+        "https://jsonrpc.humans.nodestake.top/",
+        "https://humans-mainnet-evm.itrocket.net:443",
+        "https://humans-evm-rpc.staketab.org:443",
+        "https://evm.humans.stakepool.dev.br",
+        "https://mainnet-humans-evm.konsortech.xyz",
       ],
     },
   },

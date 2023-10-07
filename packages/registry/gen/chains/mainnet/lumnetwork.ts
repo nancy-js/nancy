@@ -6,6 +6,7 @@ export default {
   tendermint: {
     api: {
       "jsonrpc-http": [
+        "https://rpc.cosmos.directory/lumnetwork",
         "https://node0.mainnet.lum.network/rpc",
         "https://lumnetwork-rpc.lavenderfive.com/",
         "https://rpc.lum.bh.rocks",
@@ -15,6 +16,21 @@ export default {
       ],
     },
   },
+  cosmossdk: {
+    api: {
+      rest: [
+        "https://rest.cosmos.directory/lumnetwork",
+        "https://node0.mainnet.lum.network/rest",
+        "https://lumnetwork-api.lavenderfive.com/",
+        "https://api-lum.starsquid.io",
+        "https://api.lum.bh.rocks",
+        "https://lum-api.ibs.team",
+        "https://lum-rest.stakerhouse.com",
+        "https://lum-api.panthea.eu",
+      ],
+    },
+  },
+  evm: null,
   ibc: {
     channels: {
       osmosis: {
