@@ -2,7 +2,7 @@
 
 import { useSuspenseQuery } from "@tanstack/react-query";
 import cx from "clsx";
-import { createCosmosSdkClient } from "@nancy/apis";
+import { createCosmosSdkClient } from "@nancy/clients";
 
 const config = {
   chains: {

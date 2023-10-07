@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nancy/apis": "workspace:*",
+    "@nancy/clients": "workspace:*",
     "@nancy/core": "workspace:*",
     "@tanstack/react-query": "rc",
     "@tanstack/react-query-devtools": "rc",
