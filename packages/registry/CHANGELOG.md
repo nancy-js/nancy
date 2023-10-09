@@ -1,5 +1,13 @@
 # @nancyjs/registry
 
+## 0.1.1
+
+### Patch Changes
+
+- 709ec46: Release test
+- Updated dependencies [709ec46]
+  - @nancyjs/core@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
