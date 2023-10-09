@@ -19,12 +19,11 @@ jobs:
       pull-requests: write
       issues: write
       repository-projects: write
-    environment: CI
     steps:
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v1
 
-      - run: bun install --frozen-lockfile  
+      - run: bun install --frozen-lockfile
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
