@@ -1,5 +1,15 @@
 # @nancyjs/inspector
 
+## 0.1.3
+
+### Patch Changes
+
+- 8cb491f: update dependencies
+- Updated dependencies [8cb491f]
+  - @nancyjs/clients@0.1.2
+  - @nancyjs/core@0.1.2
+  - @nancyjs/registry@0.1.2
+
 ## 0.1.2
 
 ### Patch Changes

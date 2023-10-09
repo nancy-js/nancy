@@ -1,5 +1,11 @@
 # @nancyjs/nancyd
 
+## 0.1.2
+
+### Patch Changes
+
+- 8cb491f: update dependencies
+
 ## 0.1.1
 
 ### Patch Changes
