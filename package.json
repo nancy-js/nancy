@@ -1,6 +1,7 @@
 {
   "name": "nancyjs",
   "private": false,
+  "version": "0.0.0",
   "workspaces": [
     "packages/*",
     "apps/*"
@@ -9,7 +10,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "release": "bun run build && changeset publish",
+    "release": "changeset publish",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint"
   },

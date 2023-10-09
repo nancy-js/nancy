@@ -15,17 +15,20 @@
     "bun-types": "latest",
     "json-schema-to-typescript": "^13.1.1",
     "openapi-fetch": "^0.7.6",
-    "openapi-typescript": "^6.6.2"
+    "openapi-typescript": "^6.6.2",
+    "@nancyjs/core": "workspace:*",
+    "@nancyjs/registry": "workspace:*",
+    "@types/lodash-es": "^4.17.9"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@nancyjs/core": "workspace:*",
-    "@nancyjs/registry": "workspace:*",
-    "@types/lodash-es": "^4.17.9",
     "bun": "^1.0.4",
     "lodash-es": "^4.17.21",
     "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -22,10 +22,12 @@
     "openapi-typescript": "^6.6.2",
     "typescript": "^5.0.0",
     "@types/lodash-es": "^4.17.9",
-    "lodash-es": "^4.17.21"
-  },
-  "dependencies": {
+    "lodash-es": "^4.17.21",
     "@nancyjs/core": "workspace:*",
     "@nancyjs/registry": "workspace:*"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }
