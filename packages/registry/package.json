@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "version": "0.1.0",
+  "private": false,
   "license": "MIT",
   "scripts": {
     "dev:chains": "bun --watch run ./scripts/index.ts --ignore-repo-update",

@@ -1,6 +1,6 @@
 {
   "name": "nancyjs",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*",
     "apps/*"

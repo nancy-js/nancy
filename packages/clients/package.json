@@ -5,6 +5,7 @@
   "types": "dist/index.d.ts",
   "version": "0.1.0",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "build": "bun run build:esm",
     "dev": "bun run build --watch",
