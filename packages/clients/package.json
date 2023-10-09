@@ -1,9 +1,10 @@
 {
-  "name": "@nancy/clients",
-  "version": "1.0.0",
+  "name": "@nancyjs/clients",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "build": "bun run build:esm",
     "dev": "bun run build --watch",
@@ -17,16 +18,13 @@
     "bun-types": "latest",
     "json-schema-to-typescript": "^13.1.1",
     "openapi-fetch": "^0.7.6",
-    "openapi-typescript": "^6.6.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "openapi-typescript": "^6.6.2",
+    "typescript": "^5.0.0",
+    "@types/lodash-es": "^4.17.9",
+    "lodash-es": "^4.17.21"
   },
   "dependencies": {
-    "@types/lodash-es": "^4.17.9",
-    "lodash-es": "^4.17.21",
-    "typescript": "^5.2.2",
-    "@nancy/core": "workspace:*",
-    "@nancy/registry": "workspace:*"
+    "@nancyjs/core": "workspace:*",
+    "@nancyjs/registry": "workspace:*"
   }
 }

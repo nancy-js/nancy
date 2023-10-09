@@ -1,0 +1,30 @@
+{
+  "name": "@nancyjs/nancyd",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run build:esm",
+    "dev": "bun run build --watch",
+    "build:esm": "bun tsc -p ./tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.13",
+    "bun-types": "latest",
+    "json-schema-to-typescript": "^13.1.1",
+    "openapi-fetch": "^0.7.6",
+    "openapi-typescript": "^6.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nancyjs/core": "workspace:*",
+    "@nancyjs/registry": "workspace:*",
+    "@types/lodash-es": "^4.17.9",
+    "bun": "^1.0.4",
+    "lodash-es": "^4.17.21",
+    "typescript": "^5.2.2"
+  }
+}

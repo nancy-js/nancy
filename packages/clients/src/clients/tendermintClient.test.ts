@@ -1,4 +1,4 @@
-// import evmos from "@nancy/registry/gen/chains/mainnet/evmos.js";
+// import evmos from "@nancyjs/registry/gen/chains/mainnet/evmos.js";
 
 // import { describe, expect, it } from "bun:test";
 // import { createTendermintClient } from "./createTendermintClient.js";
@@ -8,7 +8,7 @@
 //     evmos,
 //     cosmoshub: () =>
 //       import(
-//         "@nancy/registry/gen/chains/mainnet/cosmoshub.js"
+//         "@nancyjs/registry/gen/chains/mainnet/cosmoshub.js"
 //       ),
 //   },
 // } as const;

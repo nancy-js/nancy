@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { Providers } from "./providers";
+import { cn } from "@/lib/utils";
+import { Sidebar } from "./Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +19,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-
-        <Providers>{children}</Providers>
+    <html lang="en" className="dark h-full">
+      <body
+        className={cn(
+          inter.className,
+          "dark:bg-zinc-950 dark:text-white h-full"
+        )}
+      >
+        <div className="flex h-full">
+          <Providers>
+            <div className="w-full max-w-xs">
+              <Sidebar />
+            </div>
+            <div className="w-full h-full overflow-y-auto">
+              {children}
+            </div>
+          </Providers>
+        </div>
       </body>
     </html>
   );

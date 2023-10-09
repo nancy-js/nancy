@@ -1,10 +1,10 @@
 import { Chain, Config } from "./types.js";
-import { R, tryCatchAsync } from "@nancy/core";
+import { R, tryCatchAsync } from "@nancyjs/core";
 
 type Nullable<T> = T | null;
 export const resolveChainConfig = async (
   config: Config,
-  chainKey: string,
+  chainKey: string
 ): Promise<Nullable<Chain>> => {
   const chain = await config.chains[chainKey];
   if (!chain) return null;
@@ -25,7 +25,7 @@ export const mergeUrl = (
 };
 const parseResponse = async <T>(response: Response) => {
   const [error, json] = await tryCatchAsync(() =>
-    response.json(),
+    response.json()
   );
   if (error) {
     return R.failWith("ParseError", error.message, {
@@ -36,10 +36,10 @@ const parseResponse = async <T>(response: Response) => {
 };
 export const request = async <T>(
   url: string,
-  init?: RequestInit,
+  init?: RequestInit
 ) => {
   const [error, response] = await tryCatchAsync(() =>
-    fetch(url, init),
+    fetch(url, init)
   );
   if (error) {
     return R.failWith("NetworkError", error.message, {
@@ -70,18 +70,18 @@ export const mergeRequestInit = (
         ...init.headers,
       },
     }),
-    {},
+    {}
   );
 };
 export const interpolateUrl = (
   baseUrl: string,
   params: Record<string, string>,
-  query: Record<string, string> = {},
+  query: Record<string, string> = {}
 ) => {
   const url = Object.entries(params).reduce(
     (acc, [key, value]) =>
       acc.replace(new RegExp(`{${key}}`, "g"), value),
-    baseUrl,
+    baseUrl
   );
   console.log(url, params);
   const urlObject = new URL(url);

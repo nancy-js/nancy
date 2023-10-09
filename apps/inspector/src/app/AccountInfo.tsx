@@ -2,19 +2,8 @@
 
 import { useSuspenseQuery } from "@tanstack/react-query";
 import cx from "clsx";
-import { createCosmosSdkClient } from "@nancy/clients";
-
-const config = {
-  chains: {
-    nancy: {
-      cosmossdk: {
-        api: {
-          rest: ["http://0.0.0.0:1317"],
-        },
-      },
-    },
-  },
-} as const;
+import { createCosmosSdkClient } from "@nancyjs/clients";
+import { config } from "./config";
 
 export const AccountInfo = ({
   address,
@@ -33,7 +22,7 @@ export const AccountInfo = ({
               path: {
                 address: address,
               },
-            },
+            }
           )
           .unwrap(),
     });

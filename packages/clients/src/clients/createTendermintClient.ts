@@ -1,6 +1,6 @@
 import { ChainMap, Config } from "./types.js";
 import { get } from "lodash-es";
-import { R, makeUnwrapablePromise } from "@nancy/core";
+import { R, makeUnwrapablePromise } from "@nancyjs/core";
 import {
   resolveChainConfig,
   request,
@@ -12,27 +12,27 @@ import { TendermintRouteMap } from "../tendermint/index.js";
 
 export const createTendermintClient = <T extends ChainMap>(
   config: Config<T>,
-  chainKey: keyof T & string,
+  chainKey: keyof T & string
 ) =>
   ({
     send: <T extends keyof TendermintRouteMap>(
       method: T,
       params: TendermintRouteMap[T]["params"],
-      init: RequestInit = {},
+      init: RequestInit = {}
     ) =>
       makeUnwrapablePromise(async () => {
         const chainConfig = await resolveChainConfig(
           config,
-          chainKey,
+          chainKey
         );
         const baseUrl: unknown = get(
           chainConfig,
-          "tendermint.api.jsonrpc-http[0]",
+          "tendermint.api.jsonrpc-http[0]"
         );
         if (!chainConfig || typeof baseUrl !== "string") {
           return R.failWith(
             "UnsupportedChain",
-            `Chain ${chainKey} is not supported by this client.`,
+            `Chain ${chainKey} is not supported by this client.`
           );
         }
 
@@ -45,7 +45,7 @@ export const createTendermintClient = <T extends ChainMap>(
           interpolateUrl(
             mergeUrl(baseUrl, reqPath),
             get(params as unknown, "params.path", {}),
-            get(params as unknown, "params.query", {}),
+            get(params as unknown, "params.query", {})
           ),
           mergeRequestInit(
             {
@@ -55,8 +55,8 @@ export const createTendermintClient = <T extends ChainMap>(
               },
               body: body ? JSON.stringify(body) : undefined,
             },
-            init,
-          ),
+            init
+          )
         );
       }),
-  }) as const;
+  } as const);
